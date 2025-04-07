@@ -1,0 +1,39 @@
+/*=============================
+Extra Large Screen - Others
+===============================*/
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+
+
+
+
+}
+
+/*========================
+Large Screen - Leptop
+==========================*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+}
+
+/*=========================
+Medium Screen - Tablate
+=========================*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+}
+
+
+/*===============================
+Xtra Small Screen - Small Mobile
+=================================*/
+@media screen and (max-width: 767px) {
+
+
+
+}
