@@ -51,14 +51,63 @@
 						</div>
 					</div>							
 					<div class="col-lg-5">
-						<div class="">
-							
+						<div class="tools-card">
+							<ul class="tools-list">
+								<li><a href="#"><i class="fa-regular fa-magnifying-glass"></i></a></li>
+								<li><a type="button" data-bs-toggle="modal" data-bs-target="#user__login"><i class="fa-regular fa-user"></i></a></li>
+								<li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+								<li><a type="button" data-bs-toggle="offcanvas" data-bs-target="#ShoppingCart" aria-controls="offcanvasRight"><i class="fa-regular fa-clipboard"></i></a></li>
+							</ul>
 						</div>
 					</div>							
 				</div>					
 			</div>
 		</section>	
 		<!-- HEADER HERO AREA END -->		
+
+		<!-- SHOPING CART START -->
+		<aside class="offcanvas offcanvas-end" tabindex="-1" id="ShoppingCart" aria-labelledby="offcanvasRightLabel">
+			<div class="shoping-card-header">
+				<div class="x__icon__card">
+					<i data-bs-dismiss="offcanvas" aria-label="Close" class="fa-light fa-xmark"></i>
+				</div>
+				<div class="shoping__card__title">
+					<h4>Shopping Cart</h4>
+				</div>
+				<div class="count__card">
+					<span>0</span>
+				</div>
+			</div>
+			<div class="offcanvas-body"> 
+				<div class="shopping-card-body">
+					<h2>Your shopping bag is empty</h2>
+					<div class="go-shop-btn text-center">
+						<a href="#">go to the shop</a>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<!-- SHOPING CART END -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="user__login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  ...
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
 		
 	
 		
