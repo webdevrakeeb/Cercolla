@@ -31,11 +31,14 @@
 	<body>
 		<!-- HEADER HERO AREA START -->	
 		<section class="header-area">
-			<div class="container">
+			<div class="container-fluid container-xxl">
 				<div class="row align-items-center">
-					<div class="col-lg-5">
+					<div class="col-md-4 col-lg-5">
 						<div class="header-menu-card">
-							<ul>
+							<div class="humbarger-icon d-xl-none">
+								<img data-bs-toggle="offcanvas" data-bs-target="#menu-card" aria-controls="offcanvasExample" src="images/humbarger-icon.png" alt="">
+							</div>
+							<ul class="d-none d-xl-flex">
 								<li><a href="#">home</a></li>
 								<li><a href="#">product</a></li>
 								<li><a href="#">product 2</a></li>
@@ -43,14 +46,14 @@
 							</ul>
 						</div>
 					</div>							
-					<div class="col-lg-2">
+					<div class="col-md-4 col-lg-2">
 						<div class="logo-card text-center">
 							<a href="index.html">
 								<img src="images/logo.png" alt="">
 							</a>
 						</div>
 					</div>							
-					<div class="col-lg-5">
+					<div class="col-md-4 col-lg-5">
 						<div class="tools-card">
 							<ul class="tools-list">
 								<li><a href="#"><i class="fa-regular fa-magnifying-glass"></i></a></li>
@@ -93,6 +96,9 @@
 		<div class="modal fade" id="user__login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content">
+					<div class="modal-close-icon">
+						<i data-bs-dismiss="modal" class="fa-light fa-xmark"></i>
+					</div>
 					<div class="modal-header">
 						<a href="#">
 							<img src="images/logo.png" alt="">
@@ -100,26 +106,130 @@
 					</div>
 					<div class="modal-body"> 
 						<div class="popup-form-body">
-							<h3>Great to have you back!</h3>
-							<form action="">
+							<div class="login-form-card">
+								<h3>Great to have you back!</h3>
+								<form action="" id="user-login-form">
+									<div class="single-input-field">
+										<input type="email" name="email" id="email" placeholder="Email Address">
+									</div>
+									<div class="single-input-field">
+										<input type="password" name="password" id="password" placeholder="Password">
+									</div>
+									<div class="single-input-field">
+										<a href="#">Forgot your password?</a>
+									</div>
+									<div class="single-input-field">
+										<button type="submit">log in</button>
+									</div>
+								</form>
+								<div class="register-now-btn-card">
+									<p>Don’t have an account? <span>Register now</span></p>
+								</div>
+							</div>
+							<div class="registration-form-card">
+								<h3>Register</h3>
+								<form action="" id="user-login-form">
+									<div class="single-input-field">
+										<input type="email" name="email" id="email" placeholder="Email Address">
+									</div>
+									<div class="single-input-field">
+										<input type="password" name="password" id="password" placeholder="Password">
+									</div>
+									<div class="single-input-field">
+										<button type="submit">register</button>
+									</div>
+								</form>
+								<div class="back-login-btn">
+									<p>Back to login</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- USER LOGIN POPUP END -->
+
+
+
+		<!-- Mobile Screen Menu Start -->
+		<aside class="offcanvas offcanvas-start" tabindex="-1" id="menu-card" aria-labelledby="offcanvasExampleLabel">
+			<div class="offcanvas-header">
+				<div class="tabs">
+					<ul class="tab-menu">
+					  <li class="active" data-tab="tab1">
+						<img class="balck-icon" src="images/humbarger-icon.png" alt="">
+						<img class="white-icon" src="images/aside-humbarger-icon.png" alt="">
+						<span>menu</span>
+					  </li>
+					  <li data-tab="tab2">
+						<i class="fa-regular fa-user"></i>
+						<span>login</span>
+					  </li>
+					</ul>
+				</div>
+			</div>
+			<div class="offcanvas-body mobile-menu-body">
+				<div class="tab-contents">
+					<div class="tab-content active" id="tab1">
+					  <div class="mobile-menu-list">
+						<ul>
+							<li><a href="#">home</a></li>
+							<li><a href="#">product</a></li>
+							<li><a href="#">product 2</a></li>
+							<li><a href="#">blogs</a></li>
+						</ul>
+					  </div>
+						
+					</div>
+					<div class="tab-content" id="tab2">
+					  <div class="aside-login-tab">
+						<div class="login-form-card">
+							<form action="" id="user-login-form">
 								<div class="single-input-field">
 									<input type="email" name="email" id="email" placeholder="Email Address">
 								</div>
 								<div class="single-input-field">
 									<input type="password" name="password" id="password" placeholder="Password">
 								</div>
+								<div class="single-input-field">
+									<a href="#">Forgot your password?</a>
+								</div>
+								<div class="single-input-field">
+									<button type="submit">log in</button>
+								</div>
 							</form>
+							<div class="aside-register-now-btn-card">
+								<span>or</span>
+								<p>Register now</p>
+							</div>
 						</div>
-						
-
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary">Save changes</button>
+						<div class="registration-form-card">
+							<form action="" id="user-login-form">
+								<div class="single-input-field">
+									<input type="email" name="email" id="email" placeholder="Email Address">
+								</div>
+								<div class="single-input-field">
+									<input type="password" name="password" id="password" placeholder="Password">
+								</div>
+								<div class="single-input-field">
+									<button type="submit">register</button>
+								</div>
+							</form>
+							<div id="aside-login-back-btn" class="aside-register-now-btn-card">
+								<span>or</span>
+								<p>Back to login</p>
+							</div>
+						</div>
+					  </div>
 					</div>
 				</div>
+				<div class="aside-close-btn">
+					<button data-bs-dismiss="offcanvas">Close</button>
+				</div>
 			</div>
-		</div>
+		</aside>
+		<!-- Mobile Screen Menu End -->
   
 		
 	
