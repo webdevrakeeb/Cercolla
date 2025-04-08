@@ -35,6 +35,13 @@ Extra Large Screen - Others
         right: 6%;
     }
 
+    .relaxation-cnt-card p {
+        padding-right: 135px;
+    }
+    .relaxation-cnt-card.text-end p {
+        padding-left: 135px;
+    }
+
     
 
 
@@ -73,6 +80,16 @@ Large Screen - Leptop
     }
     .hero-sub-title p {
         font-size: 16px;
+    }
+
+    .relaxation-cnt-card p {
+        padding-right: 0px;
+    }
+    .relaxation-cnt-card.text-end p {
+        padding-left: 0px;
+    }
+    .relaxation-cnt-card h2 {
+        font-size: 35px;
     }
 
 
@@ -120,6 +137,37 @@ Medium Screen - Tablate
     }
     .hero-slider-wrpper {
         padding-right: 10px;
+    }
+
+    .relaxation-area {
+        padding-top: 100px;
+    }
+    .white-bg,
+    .count-number-bg,
+    .count-number {
+        display: none;
+    }
+    .relaxation-thum {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .relaxation-cnt {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .relaxation-cnt-card h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .relaxation-cnt-card h2 br {
+        display: none;
+    }
+    .relaxation-cnt-card {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .relaxation-cnt-card.text-lg-end h2::before {
+        left: 0;
     }
 
 
@@ -191,6 +239,40 @@ Xtra Small Screen - Small Mobile
     .hero-btn a {
         padding: 13px 30px;
         font-size: 14px;
+    }
+
+    .relaxation-area {
+        padding-top: 100px;
+    }
+    .white-bg,
+    .count-number-bg,
+    .count-number {
+        display: none;
+    }
+    .relaxation-thum {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .relaxation-cnt {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .relaxation-cnt-card h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .relaxation-cnt-card h2 br {
+        display: none;
+    }
+    .relaxation-cnt-card {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+    .relaxation-cnt-card.text-lg-end h2::before {
+        left: 0;
+    }
+    .relaxation-cnt-card p {
+        padding-right: 0;
     }
 
 

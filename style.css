@@ -31,6 +31,10 @@ a:hover {
     display: inline-block;
 }
 
+img {
+    width: 100%;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -150,9 +154,15 @@ ul {
     }
 }
 
-.container {
+.container,
+.custom-container {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.custom-container {
+    max-width: 1720px;
+    margin: auto;
 }
 
 /*======================
@@ -632,10 +642,154 @@ HERO CSS HERE
     box-shadow: 0 2px 5px -2px #0000001a;
 }
 
+/*======================
+RELAXATION CSS HERE
+========================*/
+.relaxation-area {
+    padding-top: 140px;
+}
+
+.relaxation-thum {
+    padding-right: 100px;
+}
+
+.relaxation-cnt {
+    padding-left: 100px;
+}
+
+.relaxation-img-card {
+    overflow: hidden;
+}
+
+.relaxation-thum img,
+.relaxation-img-card img {
+    transition: all 0.9s ease;
+    width: 100%;
+}
+
+.relaxation-thum:hover img {
+    transform: scale(1.1);
+}
+
+.relaxation-cnt-card h2 {
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: #000000;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.relaxation-cnt-card h2::before {
+    content: "";
+    display: block;
+    clear: both;
+    width: 70px;
+    height: 2px;
+    background: #522b1f;
+    position: absolute;
+    bottom: 0;
+}
+
+.relaxation-cnt-card.text-lg-end h2::before {
+    right: 0;
+}
+
+.relaxation-cnt-card p {
+    padding-right: 150px;
+    margin-bottom: 50px;
+    color: #80827e;
+    font-size: 15px;
+}
+
+.ndbdr {
+    border-right: 1px solid #ccc;
+}
+
+.ndbdl {
+    border-left: 1px solid #ccc;
+}
+
+.relaxation-wrpper .row .col-lg-6.commn-position {
+    position: relative;
+}
+
+.white-bg {
+    width: 5px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    top: 50.5%;
+    right: -2.5px;
+    transform: translateY(-50%);
+}
+
+.count-number-bg {
+    position: absolute;
+    left: 99%;
+    top: 50.2%;
+    transform: translateY(-50%);
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #f0f1ee;
+    transform: translate(calc(50% - 51px),calc(-50% + 5px));
+    z-index: 1;
+}
+
+.count-number {
+    position: absolute;
+    left: 98%;
+    top: 49.5%;
+    transform: translateY(-50%);
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    transform: translate(calc(50% - 51px),calc(-50% + 5px));
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #68745C;
+}
+
+.relaxation-cnt-card.text-lg-end p {
+    padding-left: 150px;
+    padding-right: 0;
+}
+
+.relaxation-img-card:hover img {
+    transform: scale(1.1);
+}
 
 
+/*======================
+FEATURED PRODUCTS CSS HERE
+========================*/
+.featured-products-area {
+    padding: 100px 0;
+}
 
+.featured-products-wrpper > h2 {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
 
+.name-price-card h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.name-price-card h3 a {
+    color: #111;
+    font-size: 16px;
+    font-weight: 500;
+}
 
 
 

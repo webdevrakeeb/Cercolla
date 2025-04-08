@@ -78,6 +78,27 @@
 			}
 		});
 
+		// FEATURED PRODUCTS Slider Activation
+		jQuery('#featured-product-slider').owlCarousel({
+			margin: 30,
+			nav: true,
+			items: 1,
+			loop: true,
+			smartSpeed: 1000,
+			navText: ['<i class="fa-sharp fa-regular fa-arrow-left"></i>', '<i class="fa-sharp fa-regular fa-arrow-right"></i>'],
+			responsive : {
+				1200 : {
+					items: 3
+				},
+				768 : {
+					margin:20
+				},
+				0 : {
+					margin:10
+				}
+			}
+		});
+
 
 
 		
