@@ -789,6 +789,93 @@ FEATURED PRODUCTS CSS HERE
     color: #111;
     font-size: 16px;
     font-weight: 500;
+    transition: all 0.4s ease;
+}
+
+.name-price-card h3 a:hover {
+    color: #522b1f;
+}
+
+.name-price-card p {
+    font-size: 15px;
+    font-weight: 700;
+    color: #522b1f;
+}
+
+.name-price-card p del {
+    color: #979797;
+}
+
+.product-img-options ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.product-img-options ul li a {
+    width: 46px;
+    height: 46px;
+    background-color: #fff;
+    box-shadow: 0 15px 25px #00000014;
+    border-radius: 50%;
+    transition: all .5s ease;
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.product-img-options ul li a:hover {
+    background-color: #522B1F;
+}
+
+.product-img-options ul li a i {
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.product-img-options ul li a:hover i {
+    color: #fff;
+}
+
+.product-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-img-options {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    transition: all 0.4s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.single-product-item:hover .product-img-options {
+    bottom: 50px;
+    opacity: 1;
+    visibility: visible;
+}
+
+#featured-product-slider .owl-prev,
+#featured-product-slider .owl-next {
+    bottom: 104%;
+}
+
+#featured-product-slider .owl-dots {
+    display: none;
+}
+
+#featured-product-slider .owl-prev {
+	right: 3%;
+}
+
+#featured-product-slider .owl-next {
+    right: 0;
 }
 
 

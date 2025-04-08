@@ -15,6 +15,10 @@ Extra Large Screen - Others
         right: 6%;
     }
 
+    .featured-products-wrpper {
+        padding: 0 15px;
+    }
+
 
 
 }
@@ -40,6 +44,13 @@ Extra Large Screen - Others
     }
     .relaxation-cnt-card.text-end p {
         padding-left: 135px;
+    }
+
+    .featured-products-wrpper {
+        padding: 0 15px;
+    }
+    #featured-product-slider .owl-prev {
+        right: 5%;
     }
 
     
@@ -90,6 +101,13 @@ Large Screen - Leptop
     }
     .relaxation-cnt-card h2 {
         font-size: 35px;
+    }
+
+    .featured-products-wrpper {
+        padding: 0 15px;
+    }
+    #featured-product-slider .owl-prev {
+        right: 7%;
     }
 
 
@@ -170,6 +188,20 @@ Medium Screen - Tablate
         left: 0;
     }
 
+    .featured-products-area {
+        padding: 30px 0;
+    }
+    .featured-products-wrpper {
+        padding: 0 15px;
+    }
+    #featured-product-slider .owl-prev {
+        right: 7%;
+    }
+    .name-price-card h3 {
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+
 
 
 }
@@ -202,8 +234,8 @@ Xtra Small Screen - Small Mobile
         margin-top: 30px;
     }
 
-    .owl-prev,
-    .owl-next {
+    .hero-slider .owl-prev,
+    .hero-slider .owl-next {
         background: #fff !important;
         width: 30px;
         box-shadow: 0 1px 12px 2px #0000000d;
@@ -217,16 +249,16 @@ Xtra Small Screen - Small Mobile
         justify-content: center;
     }
 
-    .owl-prev {
+    .hero-slider .owl-prev {
         left: 0;
     }
-    .owl-next {
+    .hero-slider .owl-next {
         right: 0;
     }
-    .owl-prev i, .owl-next i {
+    .hero-slider .owl-prev i, .hero-slider .owl-next i {
         font-size: 20px;
     }
-    .owl-dots {
+    .hero-slider .owl-dots {
         display: none;
     }
     .hero-title h3 {
@@ -273,6 +305,26 @@ Xtra Small Screen - Small Mobile
     }
     .relaxation-cnt-card p {
         padding-right: 0;
+    }
+    .relaxation-cnt-card.text-lg-end p {
+        padding-left: 0px;
+    }
+    .featured-products-area {
+        padding: 30px 0;
+        padding-top: 20px;
+    }
+
+    #featured-product-slider .owl-prev,
+    #featured-product-slider .owl-next {
+        bottom: 106% !important;
+    }
+    #featured-product-slider .owl-prev {
+        right: 13%;
+    }
+
+    #featured-product-slider .owl-prev i,
+    #featured-product-slider .owl-next i {
+        font-size: 22px;
     }
 
 
