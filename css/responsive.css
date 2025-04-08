@@ -53,6 +53,10 @@ Extra Large Screen - Others
         right: 5%;
     }
 
+    .fragrances-title h2 {
+        font-size: 40px;
+    }
+
     
 
 
@@ -108,6 +112,17 @@ Large Screen - Leptop
     }
     #featured-product-slider .owl-prev {
         right: 7%;
+    }
+
+    .fragrances-area-cnt-card {
+        width: 40%;
+    }
+    .fragrances-title h2 {
+        font-size: 40px;
+    }
+    .fragrances-sub-title p {
+        font-size: 18px;
+        margin-bottom: 25px;
     }
 
 
@@ -200,6 +215,17 @@ Medium Screen - Tablate
     .name-price-card h3 {
         padding-top: 10px;
         padding-bottom: 8px;
+    }
+
+    .fragrances-area-cnt-card {
+        width: 50%;
+    }
+    .fragrances-title h2 {
+        font-size: 33px;
+    }
+    .fragrances-sub-title p {
+        font-size: 18px;
+        margin-bottom: 25px;
     }
 
 
@@ -325,6 +351,31 @@ Xtra Small Screen - Small Mobile
     #featured-product-slider .owl-prev i,
     #featured-product-slider .owl-next i {
         font-size: 22px;
+    }
+
+    .fragrances-wrpper {
+        background: url(../images/fragrances-area-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .fragrances-area-cnt-card {
+        width: 100%;
+        position: initial;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .fragrances-title h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .fragrances-sub-title p {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .best-sellar-area {
+        padding: 50px 0;
     }
 
 

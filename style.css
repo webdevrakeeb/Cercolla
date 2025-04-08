@@ -878,7 +878,102 @@ FEATURED PRODUCTS CSS HERE
     right: 0;
 }
 
+/*======================
+FRAGRANCES PRODUCTS CSS HERE
+========================*/
+.fragrances-wrpper {
+    position: relative;
+    overflow: hidden;
+}
 
+.fragrances-area-cnt-card {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36%;
+    background: #00000069;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.fragrances-title h2 {
+    font-size: 50px;
+    margin-bottom: 22px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: capitalize;
+}
+
+.fragrances-sub-title p {
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: 35px;
+}
+
+.hero-btn.fragrances-btn a {
+    color: #111111;
+    background-color: #fff;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.hero-btn.fragrances-btn a:hover {
+    color: #fff;
+    background-color: #522B1F;
+}
+
+.fragrance-bg-wrpper img {
+    transition: all 0.8s ease;
+}
+
+.fragrance-bg-wrpper:hover img {
+    transform: scale(1.04);
+}
+
+/*======================
+BEST SELLER CSS HERE
+========================*/
+.best-sellar-area {
+    padding: 70px 0;
+}
+
+.best-sellar-title h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #222222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.best-sellar-title span {
+    width: 75px;
+    height: 2px;
+    background: #522b1f;
+    display: block;
+    margin: auto;
+}
+
+.best-sellar-title p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #666;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.best-selling-products .row {
+    row-gap: 30px;
+    margin-top: 38px;
+}
 
 
 
