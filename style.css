@@ -160,6 +160,7 @@ HEADER CSS HERE
 ========================*/
 .header-area {
     padding: 25px 0;
+    background-color: #fff;
 }
 
 .header-menu-card ul {
@@ -294,7 +295,7 @@ HEADER CSS HERE
     padding-top: 20px;
 }
 
-#user-login-form {
+.user-login-form {
     margin-top: 16px;
     display: flex;
     flex-direction: column;
@@ -564,6 +565,72 @@ HEADER CSS HERE
     border: none;
 }
 
+
+/*======================
+HERO CSS HERE
+========================*/
+.hero-title h3 {
+    font-size: 35px;
+    font-weight: 500;
+    transition: all .3s;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.hero-cnt-card {
+	padding-left: 25%;
+}
+
+.hero-sub-title p {
+    max-width: 90%;
+    color: #585757;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-btn a {
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 15px 40px;
+    transition: all .3s;
+    font-weight: 500;
+    color: #ffffff;
+    background: #000000;
+    text-transform: capitalize;
+}
+
+.hero-btn a:hover {
+    background: #522b1f;
+}
+
+.owl-prev,
+.owl-next {
+	position: absolute;
+	bottom: -5%;
+}
+
+.owl-prev i,
+.owl-next i {
+	font-size: 35px;
+}
+
+
+.owl-prev {
+    right: 17%;
+}
+
+.owl-next {
+    right: 15%;
+}
+
+.owl-next {
+	right: 12.5%;
+}
+
+.header-area.sticky-top {
+    box-shadow: 0 2px 5px -2px #0000001a;
+}
 
 
 

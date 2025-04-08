@@ -1,8 +1,41 @@
 /*=============================
 Extra Large Screen - Others
 ===============================*/
-@media screen and (min-width: 1200px) and (max-width: 1399px) {
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+    .hero-cnt-card {
+        padding-left: 10%;
+    }
+    .hero-slider-wrpper {
+        padding-right: 10px;
+    }
+    .owl-next {
+        right: 0%;
+    }
+    .owl-prev {
+        right: 6%;
+    }
 
+
+
+}
+/*=============================
+Extra Large Screen - Others
+===============================*/
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .hero-cnt-card {
+        padding-left: 10%;
+    }
+    .hero-slider-wrpper {
+        padding-right: 10px;
+    }
+    .owl-next {
+        right: 0%;
+    }
+    .owl-prev {
+        right: 6%;
+    }
+
+    
 
 
 
@@ -21,6 +54,25 @@ Large Screen - Leptop
     .tools-list li:nth-child(2),
     .tools-list li:nth-child(3) {
         display: none;
+    }
+
+    .hero-cnt-card {
+        padding-left: 5%;
+    }
+    .hero-slider-wrpper {
+        padding-right: 10px;
+    }
+    .owl-next {
+        right: 0%;
+    }
+    .owl-prev {
+        right: 7%;
+    }
+    .hero-title h3 {
+        font-size: 30px;
+    }
+    .hero-sub-title p {
+        font-size: 16px;
     }
 
 
@@ -44,6 +96,32 @@ Medium Screen - Tablate
         width: 35px;
     }
 
+    .hero-cnt-card {
+        padding-left: 5%;
+    }
+    .owl-next {
+        right: 3%;
+    }
+    .owl-prev {
+        right: 10%;
+    }
+    .hero-title h3 {
+        font-size: 30px;
+    }
+    .hero-sub-title p {
+        font-size: 16px;
+    }
+    .hero-btn a {
+        padding: 13px 30px;
+        font-size: 14px;
+    }
+    .owl-prev i, .owl-next i {
+        font-size: 26px;
+    }
+    .hero-slider-wrpper {
+        padding-right: 10px;
+    }
+
 
 
 }
@@ -53,7 +131,67 @@ Medium Screen - Tablate
 Xtra Small Screen - Small Mobile
 =================================*/
 @media screen and (max-width: 767px) {
+    .header-area {
+        padding: 15px 0;
+    }
+    .logo-card a img {
+        width: 100px;
+    }
+    .tools-list li:nth-child(2),
+    .tools-list li:nth-child(3) {
+        display: none;
+    }
+    .humbarger-icon img {
+        width: 35px;
+    }
 
+    .hero-slider-wrpper {
+        padding: 0 15px;
+    }
+    .hero-cnt-card {
+        padding: 0 15px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .owl-prev,
+    .owl-next {
+        background: #fff !important;
+        width: 30px;
+        box-shadow: 0 1px 12px 2px #0000000d;
+        bottom: -20%;
+        line-height: 1px;
+        height: 30px;
+        top: 50%;
+        transform: translateY(-50%) !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .owl-prev {
+        left: 0;
+    }
+    .owl-next {
+        right: 0;
+    }
+    .owl-prev i, .owl-next i {
+        font-size: 20px;
+    }
+    .owl-dots {
+        display: none;
+    }
+    .hero-title h3 {
+        font-size: 25px;
+    }
+    .hero-sub-title p {
+        max-width: 100%;
+        font-size: 16px;
+    }
+    .hero-btn a {
+        padding: 13px 30px;
+        font-size: 14px;
+    }
 
 
 }

@@ -20,6 +20,9 @@
 
 		<!-- Icon Css Here -->
 		<link rel="stylesheet" href="css/font-awesome.css">
+
+		<!-- Owl Carousel CSS -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
 		
 		<!-- Main StyleSheet -->
 		<link rel="stylesheet" href="style.css" />	
@@ -33,7 +36,7 @@
 		<section class="header-area">
 			<div class="container-fluid container-xxl">
 				<div class="row align-items-center">
-					<div class="col-md-4 col-lg-5">
+					<div class="col-3 col-md-4 col-lg-5">
 						<div class="header-menu-card">
 							<div class="humbarger-icon d-xl-none">
 								<img data-bs-toggle="offcanvas" data-bs-target="#menu-card" aria-controls="offcanvasExample" src="images/humbarger-icon.png" alt="">
@@ -46,14 +49,14 @@
 							</ul>
 						</div>
 					</div>							
-					<div class="col-md-4 col-lg-2">
+					<div class="col-6 col-md-4 col-lg-2">
 						<div class="logo-card text-center">
 							<a href="index.html">
 								<img src="images/logo.png" alt="">
 							</a>
 						</div>
 					</div>							
-					<div class="col-md-4 col-lg-5">
+					<div class="col-3 col-md-4 col-lg-5">
 						<div class="tools-card">
 							<ul class="tools-list">
 								<li><a href="#"><i class="fa-regular fa-magnifying-glass"></i></a></li>
@@ -108,7 +111,7 @@
 						<div class="popup-form-body">
 							<div class="login-form-card">
 								<h3>Great to have you back!</h3>
-								<form action="" id="user-login-form">
+								<form action="" class="user-login-form">
 									<div class="single-input-field">
 										<input type="email" name="popup_login_email" id="popup_login_email" placeholder="Email Address">
 									</div>
@@ -128,7 +131,7 @@
 							</div>
 							<div class="registration-form-card">
 								<h3>Register</h3>
-								<form action="" id="user-login-form">
+								<form action="" class="user-login-form">
 									<div class="single-input-field">
 										<input type="email" name="popup_regi_email" id="popup_regi_email" placeholder="Email Address">
 									</div>
@@ -149,8 +152,6 @@
 			</div>
 		</div>
 		<!-- USER LOGIN POPUP END -->
-
-
 
 		<!-- Mobile Screen Menu Start -->
 		<aside class="offcanvas offcanvas-start" tabindex="-1" id="menu-card" aria-labelledby="offcanvasExampleLabel">
@@ -180,12 +181,11 @@
 							<li><a href="#">blogs</a></li>
 						</ul>
 					  </div>
-						
 					</div>
 					<div class="tab-content" id="tab2">
 					  <div class="aside-login-tab">
 						<div class="login-form-card">
-							<form action="" id="user-login-form">
+							<form action="" class="user-login-form">
 								<div class="single-input-field">
 									<input type="email" name="aside_login_email" id="aside_login_email" placeholder="Email Address">
 								</div>
@@ -205,7 +205,7 @@
 							</div>
 						</div>
 						<div class="registration-form-card">
-							<form action="" id="user-login-form">
+							<form action="" class="user-login-form">
 								<div class="single-input-field">
 									<input type="email" name="aside_regi_email" id="aside_regi_email" placeholder="Email Address">
 								</div>
@@ -230,11 +230,58 @@
 			</div>
 		</aside>
 		<!-- Mobile Screen Menu End -->
+
+
+		<!-- HERO AREA START -->
+		<section class="hero-area">
+			<div class="hero-wrpper">
+				<div class="row g-0 align-items-center">
+					<div class="col-md-4 order-2 order-md-1">
+						<div class="hero-cnt-card">
+							<div class="hero-title">
+								<h3>Candle Cloche</h3>
+							</div>
+							<div class="hero-sub-title">
+								<p>Goods are well-glossed, non-rusting, non-allergenic, easy to lighten and maintain!</p>
+							</div>
+							<div class="hero-btn">
+								<a href="#">shop now</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8 order-1 order-md-2">
+						<div class="hero-slider-wrpper">
+							<div class="owl-carousel hero-slider">
+								<div class="single-slide"> 
+									<img src="images/hero-slide-img-1.jpg" alt="">
+								</div>
+								<div class="single-slide"> 
+									<img src="images/hero-slide-img-2.jpg" alt="">
+								</div>
+								<div class="single-slide"> 
+									<img src="images/hero-slide-img-3.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- HERO AREA END -->
   
 		
 	
 		
-		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 		
 		
 		
@@ -247,6 +294,9 @@
 		
 		<!-- Bootstrap.bundle Script -->
 		<script src="js/bootstrap.bundle.min.js"></script>
+
+		<!-- Owl Carousel JS -->
+		<script src="js/owl.carousel.min.js"></script>
 		
 		<!-- Custom jQuery -->
 		<script src="js/scripts.js"></script>

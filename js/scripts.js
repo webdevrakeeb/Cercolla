@@ -16,6 +16,15 @@
 			}
 		});
 
+		jQuery(window).scroll(function(){
+			var countUpFront = jQuery(window).scrollTop();
+			if(countUpFront > 20) {
+				jQuery('.header-area').addClass('sticky-top');
+			} else {
+				jQuery('.header-area').removeClass('sticky-top');
+			}
+		});
+
 		//User Log In Register PopUp Handler
 		jQuery('.register-now-btn-card p span').click(function(){
 			jQuery('.modal-header').addClass('hide-area');
@@ -41,12 +50,34 @@
 		jQuery('.aside-register-now-btn-card p').click(function(){
 			jQuery('.login-form-card').addClass('hide-area');
 			jQuery('.registration-form-card').addClass('show-area');
-		})
+		});
 		// Mobile User Login Registration Handler
 		jQuery('#aside-login-back-btn p').click(function(){
 			jQuery('.login-form-card').removeClass('hide-area');
 			jQuery('.registration-form-card').removeClass('show-area');
-		})
+		});
+
+		// Hero Slider Activation
+		jQuery('.hero-slider').owlCarousel({
+			margin: 30,
+			nav: true,
+			items: 1,
+			loop: true,
+			smartSpeed: 1000,
+			navText: ['<i class="fa-sharp fa-regular fa-arrow-left"></i>', '<i class="fa-sharp fa-regular fa-arrow-right"></i>'],
+			responsive : {
+				1600 : {
+					items: 1.2
+				},
+				768 : {
+					margin:20
+				},
+				0 : {
+					margin:10
+				}
+			}
+		});
+
 
 
 		
