@@ -1,714 +1,1118 @@
 <!DOCTYPE html>
 <html lang="en-US">
-	<head>
-		<!-- Meta setup -->
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="keywords" content="">
-		<meta name="decription" content="">
-		<meta name="designer" content="">
+    <head>
+        <!-- Meta setup -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="keywords" content="">
+        <meta name="decription" content="">
+        <meta name="designer" content="">
 		
-		<!-- Title -->
-		<title>Cercolla</title>
-		
-		<!-- Fav Icon -->
-		<link rel="icon" href="images/favicon.ico" />	
+        <!-- Title -->
+        <title>Cercolla</title>
 
-		<!-- Include Bootstrap -->
-		<link rel="stylesheet" href="css/bootstrap.css" />
+        <!-- Fav Icon -->
+        <link rel="icon" href="images/favicon.ico" />
 
-		<!-- Icon Css Here -->
-		<link rel="stylesheet" href="css/font-awesome.css">
+        <!-- Include Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
 
-		<!-- Owl Carousel CSS -->
-		<link rel="stylesheet" href="css/owl.carousel.min.css">
-		
-		<!-- Main StyleSheet -->
-		<link rel="stylesheet" href="style.css" />	
-		
-		<!-- Responsive CSS -->
-		<link rel="stylesheet" href="css/responsive.css" />	
-		
-	</head>
-	<body>
-		<!-- HEADER HERO AREA START -->	
-		<section class="header-area">
-			<div class="container-fluid container-xxl">
-				<div class="row align-items-center">
-					<div class="col-3 col-md-4 col-lg-5">
-						<div class="header-menu-card">
-							<div class="humbarger-icon d-xl-none">
-								<img data-bs-toggle="offcanvas" data-bs-target="#menu-card" aria-controls="offcanvasExample" src="images/humbarger-icon.png" alt="">
-							</div>
-							<ul class="d-none d-xl-flex">
-								<li><a href="#">home</a></li>
-								<li><a href="#">product</a></li>
-								<li><a href="#">product 2</a></li>
-								<li><a href="#">blogs</a></li>
-							</ul>
-						</div>
-					</div>							
-					<div class="col-6 col-md-4 col-lg-2">
-						<div class="logo-card text-center">
-							<a href="index.html">
-								<img src="images/logo.png" alt="">
-							</a>
-						</div>
-					</div>							
-					<div class="col-3 col-md-4 col-lg-5">
-						<div class="tools-card">
-							<ul class="tools-list">
-								<li><a href="#"><i class="fa-regular fa-magnifying-glass"></i></a></li>
-								<li><a type="button" data-bs-toggle="modal" data-bs-target="#user__login"><i class="fa-regular fa-user"></i></a></li>
-								<li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
-								<li><a type="button" data-bs-toggle="offcanvas" data-bs-target="#ShoppingCart" aria-controls="offcanvasRight"><i class="fa-regular fa-clipboard"></i></a></li>
-							</ul>
-						</div>
-					</div>							
-				</div>					
-			</div>
-		</section>	
-		<!-- HEADER HERO AREA END -->		
+        <!-- Icon Css Here -->
+        <link rel="stylesheet" href="css/font-awesome.css">
 
-		<!-- SHOPING CART START -->
-		<aside class="offcanvas offcanvas-end" tabindex="-1" id="ShoppingCart" aria-labelledby="offcanvasRightLabel">
-			<div class="shoping-card-header">
-				<div class="x__icon__card">
-					<i data-bs-dismiss="offcanvas" aria-label="Close" class="fa-light fa-xmark"></i>
-				</div>
-				<div class="shoping__card__title">
-					<h4>Shopping Cart</h4>
-				</div>
-				<div class="count__card">
-					<span>0</span>
-				</div>
-			</div>
-			<div class="offcanvas-body"> 
-				<div class="shopping-card-body">
-					<h2>Your shopping bag is empty</h2>
-					<div class="go-shop-btn text-center">
-						<a href="#">go to the shop</a>
-					</div>
-				</div>
-			</div>
-		</aside>
-		<!-- SHOPING CART END -->
-  
-		<!-- USER LOGIN POPUP -->
-		<div class="modal fade" id="user__login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered">
-				<div class="modal-content">
-					<div class="modal-close-icon">
-						<i data-bs-dismiss="modal" class="fa-light fa-xmark"></i>
-					</div>
-					<div class="modal-header">
-						<a href="#">
-							<img src="images/logo.png" alt="">
-						</a>
-					</div>
-					<div class="modal-body"> 
-						<div class="popup-form-body">
-							<div class="login-form-card">
-								<h3>Great to have you back!</h3>
-								<form action="" class="user-login-form">
-									<div class="single-input-field">
-										<input type="email" name="popup_login_email" id="popup_login_email" placeholder="Email Address">
-									</div>
-									<div class="single-input-field">
-										<input type="password" name="popup_login_password" id="popup_login_password" placeholder="Password">
-									</div>
-									<div class="single-input-field">
-										<a href="#">Forgot your password?</a>
-									</div>
-									<div class="single-input-field">
-										<button type="submit">log in</button>
-									</div>
-								</form>
-								<div class="register-now-btn-card">
-									<p>Don’t have an account? <span>Register now</span></p>
-								</div>
-							</div>
-							<div class="registration-form-card">
-								<h3>Register</h3>
-								<form action="" class="user-login-form">
-									<div class="single-input-field">
-										<input type="email" name="popup_regi_email" id="popup_regi_email" placeholder="Email Address">
-									</div>
-									<div class="single-input-field">
-										<input type="password" name="popup_regi_password" id="popup_regi_password" placeholder="Password">
-									</div>
-									<div class="single-input-field">
-										<button type="submit">register</button>
-									</div>
-								</form>
-								<div class="back-login-btn">
-									<p>Back to login</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- USER LOGIN POPUP END -->
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
 
-		<!-- Mobile Screen Menu Start -->
-		<aside class="offcanvas offcanvas-start" tabindex="-1" id="menu-card" aria-labelledby="offcanvasExampleLabel">
-			<div class="offcanvas-header">
-				<div class="tabs">
-					<ul class="tab-menu">
-					  <li class="active" data-tab="tab1">
-						<img class="balck-icon" src="images/humbarger-icon.png" alt="">
-						<img class="white-icon" src="images/aside-humbarger-icon.png" alt="">
-						<span>menu</span>
-					  </li>
-					  <li data-tab="tab2">
-						<i class="fa-regular fa-user"></i>
-						<span>login</span>
-					  </li>
-					</ul>
-				</div>
-			</div>
-			<div class="offcanvas-body mobile-menu-body">
-				<div class="tab-contents">
-					<div class="tab-content active" id="tab1">
-					  <div class="mobile-menu-list">
-						<ul>
-							<li><a href="#">home</a></li>
-							<li><a href="#">product</a></li>
-							<li><a href="#">product 2</a></li>
-							<li><a href="#">blogs</a></li>
-						</ul>
-					  </div>
-					</div>
-					<div class="tab-content" id="tab2">
-					  <div class="aside-login-tab">
-						<div class="login-form-card">
-							<form action="" class="user-login-form">
-								<div class="single-input-field">
-									<input type="email" name="aside_login_email" id="aside_login_email" placeholder="Email Address">
-								</div>
-								<div class="single-input-field">
-									<input type="password" name="aside_login_password" id="aside_login_password" placeholder="Password">
-								</div>
-								<div class="single-input-field">
-									<a href="#">Forgot your password?</a>
-								</div>
-								<div class="single-input-field">
-									<button type="submit">log in</button>
-								</div>
-							</form>
-							<div class="aside-register-now-btn-card">
-								<span>or</span>
-								<p>Register now</p>
-							</div>
-						</div>
-						<div class="registration-form-card">
-							<form action="" class="user-login-form">
-								<div class="single-input-field">
-									<input type="email" name="aside_regi_email" id="aside_regi_email" placeholder="Email Address">
-								</div>
-								<div class="single-input-field">
-									<input type="password" name="aside_regi_password" id="aside_regi_password" placeholder="Password">
-								</div>
-								<div class="single-input-field">
-									<button type="submit">register</button>
-								</div>
-							</form>
-							<div id="aside-login-back-btn" class="aside-register-now-btn-card">
-								<span>or</span>
-								<p>Back to login</p>
-							</div>
-						</div>
-					  </div>
-					</div>
-				</div>
-				<div class="aside-close-btn">
-					<button data-bs-dismiss="offcanvas">Close</button>
-				</div>
-			</div>
-		</aside>
-		<!-- Mobile Screen Menu End -->
+        <!-- Main StyleSheet -->
+        <link rel="stylesheet" href="style.css" />
 
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="css/responsive.css" />
+    </head>
+    <body>
+        <!-- HEADER HERO AREA START -->
+        <section class="header-area">
+            <div class="container-fluid container-xxl">
+                <div class="row align-items-center">
+                    <div class="col-3 col-md-4 col-lg-5">
+                        <div class="header-menu-card">
+                            <div class="humbarger-icon d-xl-none">
+                                <img data-bs-toggle="offcanvas" data-bs-target="#menu-card" aria-controls="offcanvasExample" src="images/humbarger-icon.png" alt="">
+                            </div>
+                            <ul class="d-none d-xl-flex SMN_effect-14">
+                                <li>
+                                    <a href="#">home</a>
+                                </li>
+                                <li>
+                                    <a href="#">product</a>
+                                </li>
+                                <li>
+                                    <a href="#">product 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">blogs</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo-card text-center">
+                            <a href="index.html">
+                                <img src="images/logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-4 col-lg-5">
+                        <div class="tools-card">
+                            <ul class="tools-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-regular fa-magnifying-glass"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#user__login">
+                                        <i class="fa-regular fa-user"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a type="button" data-bs-toggle="offcanvas" data-bs-target="#ShoppingCart" aria-controls="offcanvasRight">
+                                        <i class="fa-regular fa-clipboard"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- HEADER HERO AREA END -->
 
-		<!-- HERO AREA START -->
-		<section class="hero-area">
-			<div class="hero-wrpper">
-				<div class="row g-0 align-items-center">
-					<div class="col-md-4 order-2 order-md-1">
-						<div class="hero-cnt-card">
-							<div class="hero-title">
-								<h3>Candle Cloche</h3>
-							</div>
-							<div class="hero-sub-title">
-								<p>Goods are well-glossed, non-rusting, non-allergenic, easy to lighten and maintain!</p>
-							</div>
-							<div class="hero-btn">
-								<a href="#">shop now</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-8 order-1 order-md-2">
-						<div class="hero-slider-wrpper">
-							<div class="owl-carousel hero-slider">
-								<div class="single-slide"> 
-									<img src="images/hero-slide-img-1.jpg" alt="">
-								</div>
-								<div class="single-slide"> 
-									<img src="images/hero-slide-img-2.jpg" alt="">
-								</div>
-								<div class="single-slide"> 
-									<img src="images/hero-slide-img-3.jpg" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- HERO AREA END -->
+        <!-- SHOPING CART START -->
+        <aside class="offcanvas offcanvas-end" tabindex="-1" id="ShoppingCart" aria-labelledby="offcanvasRightLabel">
+            <div class="shoping-card-header">
+                <div class="x__icon__card">
+                    <i data-bs-dismiss="offcanvas" aria-label="Close" class="fa-light fa-xmark"></i>
+                </div>
+                <div class="shoping__card__title">
+                    <h4>Shopping Cart</h4>
+                </div>
+                <div class="count__card">
+                    <span>0</span>
+                </div>
+            </div>
+            <div class="offcanvas-body">
+                <div class="shopping-card-body">
+                    <h2>Your shopping bag is empty</h2>
+                    <div class="go-shop-btn text-center">
+                        <a href="#">go to the shop</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- SHOPING CART END -->
 
+        <!-- USER LOGIN POPUP -->
+        <div class="modal fade" id="user__login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-close-icon">
+                        <i data-bs-dismiss="modal" class="fa-light fa-xmark"></i>
+                    </div>
+                    <div class="modal-header">
+                        <a href="#">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="modal-body">
+                        <div class="popup-form-body">
+                            <div class="login-form-card">
+                                <h3>Great to have you back!</h3>
+                                <form action="" class="user-login-form">
+                                    <div class="single-input-field">
+                                        <input type="email" name="popup_login_email" id="popup_login_email" placeholder="Email Address">
+                                    </div>
+                                    <div class="single-input-field">
+                                        <input type="password" name="popup_login_password" id="popup_login_password" placeholder="Password">
+                                    </div>
+                                    <div class="single-input-field">
+                                        <a href="#">Forgot your password?</a>
+                                    </div>
+                                    <div class="single-input-field">
+                                        <button type="submit">log in</button>
+                                    </div>
+                                </form>
+                                <div class="register-now-btn-card">
+                                    <p>Don’t have an account? <span>Register now</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="registration-form-card">
+                                <h3>Register</h3>
+                                <form action="" class="user-login-form">
+                                    <div class="single-input-field">
+                                        <input type="email" name="popup_regi_email" id="popup_regi_email" placeholder="Email Address">
+                                    </div>
+                                    <div class="single-input-field">
+                                        <input type="password" name="popup_regi_password" id="popup_regi_password" placeholder="Password">
+                                    </div>
+                                    <div class="single-input-field">
+                                        <button type="submit">register</button>
+                                    </div>
+                                </form>
+                                <div class="back-login-btn">
+                                    <p>Back to login</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- USER LOGIN POPUP END -->
 
-		<!-- RELAXATION AREA START -->
-		<section class="relaxation-area">
-			<div class="custom-container">
-				<div class="relaxation-wrpper">
-					<div class="row align-items-center">
-						<div class="col-lg-6 ndbdr commn-position">
-							<div class="white-bg"></div>
-							<div class="count-number-bg"></div>
-							<div class="count-number">1</div>
-							<div class="relaxation-thum">
-								<div class="relaxation-img-card">
-									<img src="images/relaxation-one.jpg" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="relaxation-cnt">
-								<div class="relaxation-cnt-card">
-									<h2>Scented candles bring <br> you relaxation</h2>
-									<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-									<div class="hero-btn">
-										<a href="#">shop now</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row align-items-center">
-						<div class="col-lg-6 commn-position order-2 order-lg-1">
-							<div class="white-bg"></div>
-							<div class="count-number-bg"></div>
-							<div class="count-number">2</div>
-							<div class="relaxation-thum">
-								<div class="relaxation-cnt-card text-lg-end">
-									<h2>Scented candles bring <br> you relaxation</h2>
-									<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-									<div class="hero-btn">
-										<a href="#">shop now</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 ndbdl order-1 order-lg-2">
-							<div class="relaxation-cnt">
-								<div class="relaxation-img-card">
-									<img src="images/relaxation-two.jpg" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- RELAXATION AREA END -->
+        <!-- Mobile Screen Menu Start -->
+        <aside class="offcanvas offcanvas-start" tabindex="-1" id="menu-card" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <div class="tabs">
+                    <ul class="tab-menu">
+                        <li class="active" data-tab="tab1">
+                            <img class="balck-icon" src="images/humbarger-icon.png" alt="">
+                            <img class="white-icon" src="images/aside-humbarger-icon.png" alt="">
+                            <span>menu</span>
+                        </li>
+                        <li data-tab="tab2">
+                            <i class="fa-regular fa-user"></i>
+                            <span>login</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="offcanvas-body mobile-menu-body">
+                <div class="tab-contents">
+                    <div class="tab-content active" id="tab1">
+                        <div class="mobile-menu-list">
+                            <ul>
+                                <li>
+                                    <a href="#">home</a>
+                                </li>
+                                <li>
+                                    <a href="#">product</a>
+                                </li>
+                                <li>
+                                    <a href="#">product 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">blogs</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tab2">
+                        <div class="aside-login-tab">
+                            <div class="login-form-card">
+                                <form action="" class="user-login-form">
+                                    <div class="single-input-field">
+                                        <input type="email" name="aside_login_email" id="aside_login_email" placeholder="Email Address">
+                                    </div>
+                                    <div class="single-input-field">
+                                        <input type="password" name="aside_login_password" id="aside_login_password" placeholder="Password">
+                                    </div>
+                                    <div class="single-input-field">
+                                        <a href="#">Forgot your password?</a>
+                                    </div>
+                                    <div class="single-input-field">
+                                        <button type="submit">log in</button>
+                                    </div>
+                                </form>
+                                <div class="aside-register-now-btn-card">
+                                    <span>or</span>
+                                    <p>Register now</p>
+                                </div>
+                            </div>
+                            <div class="registration-form-card">
+                                <form action="" class="user-login-form">
+                                    <div class="single-input-field">
+                                        <input type="email" name="aside_regi_email" id="aside_regi_email" placeholder="Email Address">
+                                    </div>
+                                    <div class="single-input-field">
+                                        <input type="password" name="aside_regi_password" id="aside_regi_password" placeholder="Password">
+                                    </div>
+                                    <div class="single-input-field">
+                                        <button type="submit">register</button>
+                                    </div>
+                                </form>
+                                <div id="aside-login-back-btn" class="aside-register-now-btn-card">
+                                    <span>or</span>
+                                    <p>Back to login</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aside-close-btn">
+                    <button data-bs-dismiss="offcanvas">Close</button>
+                </div>
+            </div>
+        </aside>
+        <!-- Mobile Screen Menu End -->
 
+        <!-- HERO AREA START -->
+        <section class="hero-area">
+            <div class="hero-wrpper">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-4 order-2 order-md-1">
+                        <div class="hero-cnt-card">
+                            <div class="hero-title">
+                                <h3>Candle Cloche</h3>
+                            </div>
+                            <div class="hero-sub-title">
+                                <p>Goods are well-glossed, non-rusting, non-allergenic, easy to lighten and maintain!</p>
+                            </div>
+                            <div class="hero-btn">
+                                <a href="#">shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 order-1 order-md-2">
+                        <div class="hero-slider-wrpper">
+                            <div class="owl-carousel hero-slider">
+                                <div class="single-slide">
+                                    <img src="images/hero-slide-img-1.jpg" alt="">
+                                </div>
+                                <div class="single-slide">
+                                    <img src="images/hero-slide-img-2.jpg" alt="">
+                                </div>
+                                <div class="single-slide">
+                                    <img src="images/hero-slide-img-3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- HERO AREA END -->
 
-		<!-- FEATURED PRODUCTS AREA START -->
-		<div class="featured-products-area">
-			<div class="custom-container">
-				<div class="featured-products-wrpper">
-					<h2>Featured Products</h2>
-					<div class="featured-products-slider-wrpper">
-						<div id="featured-product-slider" class="owl-carousel owl-theme">
-							<!-- Single Product Item -->
-							<div class="single-product-item"> 
-								<div class="product-img">
-									<a href="#"><img src="images/featured-products-1.jpg" alt=""></a>
-									<div class="product-img-options">
-										<ul>
-											<li><a href="#"><i class="fa-regular fa-ellipsis"></i></a></li>
-											<li><a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a></li>
-											<li><a href="#"><i class="fa-light fa-heart"></i></a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="name-price-card">
-									<h3 class="text-center"><a href="#">Fig & Cassis Candle</a></h3>
-									<p class="text-center"><del>$100.00</del> $75.00</p>
-								</div>
-							</div>
-							<!-- Single Product Item -->
-							<div class="single-product-item"> 
-								<div class="product-img">
-									<a href="#"><img src="images/featured-products-1.jpg" alt=""></a>
-									<div class="product-img-options">
-										<ul>
-											<li><a href="#"><i class="fa-regular fa-ellipsis"></i></a></li>
-											<li><a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a></li>
-											<li><a href="#"><i class="fa-light fa-heart"></i></a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="name-price-card">
-									<h3 class="text-center"><a href="#">Orange Spice Candle</a></h3>
-									<p class="text-center"><del></del> $50.00</p>
-								</div>
-							</div>
-							<!-- Single Product Item -->
-							<div class="single-product-item"> 
-								<div class="product-img">
-									<a href="#"><img src="images/featured-products-3.jpg" alt=""></a>
-									<div class="product-img-options">
-										<ul>
-											<li><a href="#"><i class="fa-regular fa-ellipsis"></i></a></li>
-											<li><a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a></li>
-											<li><a href="#"><i class="fa-light fa-heart"></i></a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="name-price-card">
-									<h3 class="text-center"><a href="#">Stack Candle Prop</a></h3>
-									<p class="text-center"><del></del> $215.00</p>
-								</div>
-							</div>
-							<!-- Single Product Item -->
-							<div class="single-product-item"> 
-								<div class="product-img">
-									<a href="#"><img src="images/featured-products-4.jpg" alt=""></a>
-									<div class="product-img-options">
-										<ul>
-											<li><a href="#"><i class="fa-regular fa-ellipsis"></i></a></li>
-											<li><a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a></li>
-											<li><a href="#"><i class="fa-light fa-heart"></i></a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="name-price-card">
-									<h3 class="text-center"><a href="#">Candle Holder - Lilac</a></h3>
-									<p class="text-center"><del>$70.00</del> $65.00</p>
-								</div>
-							</div>
-							<!-- Single Product Item -->
-							<div class="single-product-item"> 
-								<div class="product-img">
-									<a href="#"><img src="images/featured-products-5.jpg" alt=""></a>
-									<div class="product-img-options">
-										<ul>
-											<li><a href="#"><i class="fa-regular fa-ellipsis"></i></a></li>
-											<li><a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a></li>
-											<li><a href="#"><i class="fa-light fa-heart"></i></a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="name-price-card">
-									<h3 class="text-center"><a href="#">Around Holder</a></h3>
-									<p class="text-center"><del></del> $100.00</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- FEATURED PRODUCTS AREA END -->
+        <!-- RELAXATION AREA START -->
+        <section class="relaxation-area">
+            <div class="custom-container">
+                <div class="relaxation-wrpper">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 ndbdr commn-position">
+                            <div class="white-bg"></div>
+                            <div class="count-number-bg"></div>
+                            <div class="count-number">1</div>
+                            <div class="relaxation-thum">
+                                <div class="relaxation-img-card">
+                                    <img src="images/relaxation-one.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="relaxation-cnt">
+                                <div class="relaxation-cnt-card">
+                                    <h2>Scented candles bring <br> you relaxation </h2>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                    <div class="hero-btn">
+                                        <a href="#">shop now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 commn-position order-2 order-lg-1">
+                            <div class="white-bg"></div>
+                            <div class="count-number-bg"></div>
+                            <div class="count-number">2</div>
+                            <div class="relaxation-thum">
+                                <div class="relaxation-cnt-card text-lg-end">
+                                    <h2>Scented candles bring <br> you relaxation </h2>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                    <div class="hero-btn">
+                                        <a href="#">shop now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ndbdl order-1 order-lg-2">
+                            <div class="relaxation-cnt">
+                                <div class="relaxation-img-card">
+                                    <img src="images/relaxation-two.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- RELAXATION AREA END -->
 
+        <!-- FEATURED PRODUCTS AREA START -->
+        <div class="featured-products-area">
+            <div class="custom-container">
+                <div class="featured-products-wrpper">
+                    <h2>Featured Products</h2>
+                    <div class="featured-products-slider-wrpper">
+                        <div id="featured-product-slider" class="owl-carousel owl-theme">
+                            <!-- Single Product Item -->
+                            <div class="single-product-item">
+                                <div class="product-img">
+                                    <a href="#">
+                                        <img src="images/featured-products-1.jpg" alt="">
+                                    </a>
+                                    <div class="product-img-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-regular fa-ellipsis"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-light fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="name-price-card">
+                                    <h3 class="text-center">
+                                        <a href="#">Fig & Cassis Candle</a>
+                                    </h3>
+                                    <p class="text-center">
+                                        <del>$100.00</del> $75.00
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Single Product Item -->
+                            <div class="single-product-item">
+                                <div class="product-img">
+                                    <a href="#">
+                                        <img src="images/featured-products-1.jpg" alt="">
+                                    </a>
+                                    <div class="product-img-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-regular fa-ellipsis"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-light fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="name-price-card">
+                                    <h3 class="text-center">
+                                        <a href="#">Orange Spice Candle</a>
+                                    </h3>
+                                    <p class="text-center">
+                                        <del></del> $50.00
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Single Product Item -->
+                            <div class="single-product-item">
+                                <div class="product-img">
+                                    <a href="#">
+                                        <img src="images/featured-products-3.jpg" alt="">
+                                    </a>
+                                    <div class="product-img-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-regular fa-ellipsis"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-light fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="name-price-card">
+                                    <h3 class="text-center">
+                                        <a href="#">Stack Candle Prop</a>
+                                    </h3>
+                                    <p class="text-center">
+                                        <del></del> $215.00
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Single Product Item -->
+                            <div class="single-product-item">
+                                <div class="product-img">
+                                    <a href="#">
+                                        <img src="images/featured-products-4.jpg" alt="">
+                                    </a>
+                                    <div class="product-img-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-regular fa-ellipsis"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-light fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="name-price-card">
+                                    <h3 class="text-center">
+                                        <a href="#">Candle Holder - Lilac</a>
+                                    </h3>
+                                    <p class="text-center">
+                                        <del>$70.00</del> $65.00
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Single Product Item -->
+                            <div class="single-product-item">
+                                <div class="product-img">
+                                    <a href="#">
+                                        <img src="images/featured-products-5.jpg" alt="">
+                                    </a>
+                                    <div class="product-img-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-regular fa-ellipsis"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-light fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="name-price-card">
+                                    <h3 class="text-center">
+                                        <a href="#">Around Holder</a>
+                                    </h3>
+                                    <p class="text-center">
+                                        <del></del> $100.00
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FEATURED PRODUCTS AREA END -->
 
-		<!-- FRAGRANCES AREA START -->
-		<section class="fragrances-area">
-			<div class="fragrances-wrpper">
-				<div class="fragrance-bg-wrpper">
-					<img class="d-none d-md-block" src="images/fragrances-area-bg.jpg" alt="">
-				</div>
-				<div class="fragrances-area-cnt-card">
-					<div class="fragrances-title">
-						<h2>There are many fragrances for you</h2>
-					</div>
-					<div class="fragrances-sub-title">
-						<p>Lorem ipsum dolor sit amet, his convenire similique efficiendi et, et ius brute tation inermis</p>
-					</div>
-					<div class="hero-btn fragrances-btn">
-						<a href="#">shop now</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- FRAGRANCES AREA END -->
+        <!-- FRAGRANCES AREA START -->
+        <section class="fragrances-area">
+            <div class="fragrances-wrpper">
+                <div class="fragrance-bg-wrpper">
+                    <img class="d-none d-md-block" src="images/fragrances-area-bg.jpg" alt="">
+                </div>
+                <div class="fragrances-area-cnt-card">
+                    <div class="fragrances-title">
+                        <h2>There are many fragrances for you</h2>
+                    </div>
+                    <div class="fragrances-sub-title">
+                        <p>Lorem ipsum dolor sit amet, his convenire similique efficiendi et, et ius brute tation inermis</p>
+                    </div>
+                    <div class="hero-btn fragrances-btn">
+                        <a href="#">shop now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FRAGRANCES AREA END -->
 
+        <!-- BEST SELLER AREA START -->
+        <section class="best-sellar-area">
+            <div class="custom-container">
+                <div class="best-sellar-wrpper">
+                    <div class="best-sellar-title">
+                        <h3>Best Seller</h3>
+                        <span></span>
+                        <p>Best Seller Product This Week! </p>
+                    </div>
+                    <div class="best-selling-products">
+                        <div class="row">
+                            <!-- Single Product Item -->
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="single-best-selling-product">
+                                    <div class="single-product-item">
+                                        <div class="product-img">
+                                            <a href="#">
+                                                <img src="images/featured-products-1.jpg" alt="">
+                                            </a>
+                                            <div class="product-img-options">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-regular fa-ellipsis"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-light fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="name-price-card">
+                                            <h3 class="text-center">
+                                                <a href="#">Fig & Cassis Candle</a>
+                                            </h3>
+                                            <p class="text-center">
+                                                <del>$100.00</del> $75.00
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Product Item -->
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="single-best-selling-product">
+                                    <div class="single-product-item">
+                                        <div class="product-img">
+                                            <a href="#">
+                                                <img src="images/featured-products-1.jpg" alt="">
+                                            </a>
+                                            <div class="product-img-options">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-regular fa-ellipsis"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-light fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="name-price-card">
+                                            <h3 class="text-center">
+                                                <a href="#">Orange Spice Candle</a>
+                                            </h3>
+                                            <p class="text-center">
+                                                <del></del> $50.00
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Product Item -->
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="single-best-selling-product">
+                                    <div class="single-product-item">
+                                        <div class="product-img">
+                                            <a href="#">
+                                                <img src="images/bsp-3.jpg" alt="">
+                                            </a>
+                                            <div class="product-img-options">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-regular fa-ellipsis"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-light fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="name-price-card">
+                                            <h3 class="text-center">
+                                                <a href="#">Stack Candle Prop</a>
+                                            </h3>
+                                            <p class="text-center">
+                                                <del></del> $215.00
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Product Item -->
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="single-best-selling-product">
+                                    <div class="single-product-item">
+                                        <div class="product-img">
+                                            <a href="#">
+                                                <img src="images/featured-products-4.jpg" alt="">
+                                            </a>
+                                            <div class="product-img-options">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-regular fa-ellipsis"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-light fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="name-price-card">
+                                            <h3 class="text-center">
+                                                <a href="#">Candle Holder - Lilac</a>
+                                            </h3>
+                                            <p class="text-center">
+                                                <del>$70.00</del> $65.00
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Product Item -->
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="single-best-selling-product">
+                                    <div class="single-product-item">
+                                        <div class="product-img">
+                                            <a href="#">
+                                                <img src="images/featured-products-5.jpg" alt="">
+                                            </a>
+                                            <div class="product-img-options">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-regular fa-ellipsis"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-light fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="name-price-card">
+                                            <h3 class="text-center">
+                                                <a href="#">Around Holder</a>
+                                            </h3>
+                                            <p class="text-center">
+                                                <del></del> $100.00
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Product Item -->
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="single-best-selling-product">
+                                    <div class="single-product-item">
+                                        <div class="product-img">
+                                            <a href="#">
+                                                <img src="images/bsp-6.jpg" alt="">
+                                            </a>
+                                            <div class="product-img-options">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-regular fa-ellipsis"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-light fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="name-price-card">
+                                            <h3 class="text-center">
+                                                <a href="#">Light Blue</a>
+                                            </h3>
+                                            <p class="text-center">
+                                                <del></del> $30.00
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Product Item -->
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="single-best-selling-product">
+                                    <div class="single-product-item">
+                                        <div class="product-img">
+                                            <a href="#">
+                                                <img src="images/featured-products-4.jpg" alt="">
+                                            </a>
+                                            <div class="product-img-options">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-regular fa-ellipsis"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-light fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="name-price-card">
+                                            <h3 class="text-center">
+                                                <a href="#">Scent Diffuser</a>
+                                            </h3>
+                                            <p class="text-center">
+                                                <del>$50.00</del> $25.00
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Product Item -->
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="single-best-selling-product">
+                                    <div class="single-product-item">
+                                        <div class="product-img">
+                                            <a href="#">
+                                                <img src="images/bsp-8.jpg" alt="">
+                                            </a>
+                                            <div class="product-img-options">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-regular fa-ellipsis"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-light fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="name-price-card">
+                                            <h3 class="text-center">
+                                                <a href="#">Grooved Candle</a>
+                                            </h3>
+                                            <p class="text-center">
+                                                <del></del> $35.00
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BEST SELLER AREA END -->
 
-		<!-- BEST SELLER AREA START -->
-		<section class="best-sellar-area">
-			<div class="custom-container">
-				<div class="best-sellar-wrpper">
-					<div class="best-sellar-title">
-						<h3>Best Seller</h3>
-						<span></span>
-						<p>Best Seller Product This Week! </p>
-					</div>
-					<div class="best-selling-products">
-						<div class="row">
-							<!-- Single Product Item -->
-							<div class="col-6 col-md-4 col-lg-3">
-								<div class="single-best-selling-product">
-									<div class="single-product-item"> 
-										<div class="product-img">
-											<a href="#"><img src="images/featured-products-1.jpg" alt=""></a>
-											<div class="product-img-options">
-												<ul>
-													<li><a href="#"><i class="fa-regular fa-ellipsis"></i></a></li>
-													<li><a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a></li>
-													<li><a href="#"><i class="fa-light fa-heart"></i></a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="name-price-card">
-											<h3 class="text-center"><a href="#">Fig & Cassis Candle</a></h3>
-											<p class="text-center"><del>$100.00</del> $75.00</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Single Product Item -->
-							<div class="col-6 col-md-4 col-lg-3">
-								<div class="single-best-selling-product">
-									<div class="single-product-item"> 
-										<div class="product-img">
-											<a href="#"><img src="images/featured-products-1.jpg" alt=""></a>
-											<div class="product-img-options">
-												<ul>
-													<li><a href="#"><i class="fa-regular fa-ellipsis"></i></a></li>
-													<li><a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a></li>
-													<li><a href="#"><i class="fa-light fa-heart"></i></a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="name-price-card">
-											<h3 class="text-center"><a href="#">Orange Spice Candle</a></h3>
-											<p class="text-center"><del></del> $50.00</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Single Product Item -->
-							<div class="col-6 col-md-4 col-lg-3">
-								<div class="single-best-selling-product">
-									<div class="single-product-item"> 
-										<div class="product-img">
-											<a href="#"><img src="images/bsp-3.jpg" alt=""></a>
-											<div class="product-img-options">
-												<ul>
-													<li><a href="#"><i class="fa-regular fa-ellipsis"></i></a></li>
-													<li><a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a></li>
-													<li><a href="#"><i class="fa-light fa-heart"></i></a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="name-price-card">
-											<h3 class="text-center"><a href="#">Stack Candle Prop</a></h3>
-											<p class="text-center"><del></del> $215.00</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Single Product Item -->
-							<div class="col-6 col-md-4 col-lg-3">
-								<div class="single-best-selling-product">
-									<div class="single-product-item"> 
-										<div class="product-img">
-											<a href="#"><img src="images/featured-products-4.jpg" alt=""></a>
-											<div class="product-img-options">
-												<ul>
-													<li><a href="#"><i class="fa-regular fa-ellipsis"></i></a></li>
-													<li><a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a></li>
-													<li><a href="#"><i class="fa-light fa-heart"></i></a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="name-price-card">
-											<h3 class="text-center"><a href="#">Candle Holder - Lilac</a></h3>
-											<p class="text-center"><del>$70.00</del> $65.00</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Single Product Item -->
-							<div class="col-6 col-md-4 col-lg-3">
-								<div class="single-best-selling-product">
-									<div class="single-product-item"> 
-										<div class="product-img">
-											<a href="#"><img src="images/featured-products-5.jpg" alt=""></a>
-											<div class="product-img-options">
-												<ul>
-													<li><a href="#"><i class="fa-regular fa-ellipsis"></i></a></li>
-													<li><a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a></li>
-													<li><a href="#"><i class="fa-light fa-heart"></i></a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="name-price-card">
-											<h3 class="text-center"><a href="#">Around Holder</a></h3>
-											<p class="text-center"><del></del> $100.00</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Single Product Item -->
-							<div class="col-6 col-md-4 col-lg-3">
-								<div class="single-best-selling-product">
-									<div class="single-product-item"> 
-										<div class="product-img">
-											<a href="#"><img src="images/bsp-6.jpg" alt=""></a>
-											<div class="product-img-options">
-												<ul>
-													<li><a href="#"><i class="fa-regular fa-ellipsis"></i></a></li>
-													<li><a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a></li>
-													<li><a href="#"><i class="fa-light fa-heart"></i></a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="name-price-card">
-											<h3 class="text-center"><a href="#">Light Blue</a></h3>
-											<p class="text-center"><del></del> $30.00</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Single Product Item -->
-							<div class="col-6 col-md-4 col-lg-3">
-								<div class="single-best-selling-product">
-									<div class="single-product-item"> 
-										<div class="product-img">
-											<a href="#"><img src="images/featured-products-4.jpg" alt=""></a>
-											<div class="product-img-options">
-												<ul>
-													<li><a href="#"><i class="fa-regular fa-ellipsis"></i></a></li>
-													<li><a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a></li>
-													<li><a href="#"><i class="fa-light fa-heart"></i></a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="name-price-card">
-											<h3 class="text-center"><a href="#">Scent Diffuser</a></h3>
-											<p class="text-center"><del>$50.00</del> $25.00</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Single Product Item -->
-							<div class="col-6 col-md-4 col-lg-3">
-								<div class="single-best-selling-product">
-									<div class="single-product-item"> 
-										<div class="product-img">
-											<a href="#"><img src="images/bsp-8.jpg" alt=""></a>
-											<div class="product-img-options">
-												<ul>
-													<li><a href="#"><i class="fa-regular fa-ellipsis"></i></a></li>
-													<li><a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a></li>
-													<li><a href="#"><i class="fa-light fa-heart"></i></a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="name-price-card">
-											<h3 class="text-center"><a href="#">Grooved Candle</a></h3>
-											<p class="text-center"><del></del> $35.00</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- BEST SELLER AREA END -->
+        <!-- INSTAGRAM AREA START -->
+        <section class="instagram-area">
+            <div class="instagram-wrpper">
+                <div class="instagram-post-slider">
+                    <div class="instagram-title">
+                        <h3>
+                            <i class="fa-brands fa-instagram"></i> @cercolla on instagram.
+                        </h3>
+                    </div>
+                    <div id="instagram-post" class="owl-carousel">
+                        <div class="insta-single-slide">
+                            <a href="#">
+                                <img src="images/instagram1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="insta-single-slide">
+                            <a href="#">
+                                <img src="images/instagram2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="insta-single-slide">
+                            <a href="#">
+                                <img src="images/instagram3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="insta-single-slide">
+                            <a href="#">
+                                <img src="images/instagram4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="insta-single-slide">
+                            <a href="#">
+                                <img src="images/instagram5.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="insta-single-slide">
+                            <a href="#">
+                                <img src="images/instagram6.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- INSTAGRAM AREA END -->
 
-		<!-- INSTAGRAM AREA START -->
-		<section class="instagram-area">
-			<div class="instagram-wrpper">
-				<div class="instagram-post-slider">
-					<div class="instagram-title">
-						<h3>
-							<i class="fa-brands fa-instagram"></i>
-							@cercolla on instagram.
-						</h3>
-					</div>
-					<div id="instagram-post" class="owl-carousel">
-						<div class="insta-single-slide">
-							<a href="#">
-								<img src="images/instagram1.jpg" alt="">
-							</a>
-						</div>
-						<div class="insta-single-slide">
-							<a href="#">
-								<img src="images/instagram2.jpg" alt="">
-							</a>
-						</div>
-						<div class="insta-single-slide">
-							<a href="#">
-								<img src="images/instagram3.jpg" alt="">
-							</a>
-						</div>
-						<div class="insta-single-slide">
-							<a href="#">
-								<img src="images/instagram4.jpg" alt="">
-							</a>
-						</div>
-						<div class="insta-single-slide">
-							<a href="#">
-								<img src="images/instagram5.jpg" alt="">
-							</a>
-						</div>
-						<div class="insta-single-slide">
-							<a href="#">
-								<img src="images/instagram6.jpg" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- INSTAGRAM AREA END -->
-  
-		
-	
-		
+        <!-- FOOTER ARES START -->
+        <footer class="footer-area">
+            <div class="footer-top-wrpper">
+                <div class="container-fluid container-xxl">
+                    <div class="footer-wrpper">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-3">
+                                <div class="footer-single-card footer-card-one">
+                                    <div class="footer-logo-card">
+                                        <a href="#">
+                                            <img src="images/footer-logo.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="footer-cnt">
+                                        <p>Subscribe our newsletter and get <br> discount 30% off </p>
+                                    </div>
+                                    <div class="newsletter-email">
+                                        <form class="" action="#" method="">
+                                            <input type="email" name="newsletter_email" id="newsletter_email" placeholder="Your email address...">
+                                            <button type="submit">
+                                                <i class="fa-solid fa-paper-plane"></i>
+                                            </button>
+                                        </form>
+                                    </div>
+                                    <div class="social-icons">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-brands fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-brands fa-dribbble"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-brands fa-behance"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-brands fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3 fcbdr">
+                                <div class="footer-single-card quick-links customar-care">
+                                    <h4>Customer Care</h4>
+                                    <span></span>
+                                    <div class="quick-link-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Privacy Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Terms & Conditions</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Products Return</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Wholesale Policy</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3 fcbdr">
+                                <div class="footer-single-card quick-links quick-shop">
+                                    <h4>Quick Shop</h4>
+                                    <span></span>
+                                    <div class="quick-link-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Pagination</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Terms & Conditions</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Contact</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Accessories</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Home Page</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3 fcbdr">
+                                <div class="footer-single-card quick-links company">
+                                    <h4>Company</h4>
+                                    <span></span>
+                                    <div class="quick-link-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Menu items</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Help Center</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Address Store</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Privacy Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Home Page</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-wrpper">
+                <div class="container-fluid container-xxl">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="copy-right-card">
+                                <p>© Copyright <span id="year"></span> | <a href="#">Cercolla</a> By <a href="#">ThemeOcean</a>. Powered by <a href="#">Shopify</a>. </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="allowed-payment-method">
+                                <img src="images/allowed-payment-method.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER ARES END -->
 
-		
-		
-		
-		
-		
-		
-		<!-- Main jQuery -->
-		<script src="js/jquery-3.4.1.min.js"></script>
-		
-		<!-- Bootstrap.bundle Script -->
-		<script src="js/bootstrap.bundle.min.js"></script>
+		<!-- Footer Year Handler -->
+        <script>
+            const findYear = new Date();
+            const fullYear = findYear.getFullYear();
+            document.getElementById('year').innerText = fullYear;
+        </script>
 
-		<!-- Owl Carousel JS -->
-		<script src="js/owl.carousel.min.js"></script>
-		
-		<!-- Custom jQuery -->
-		<script src="js/scripts.js"></script>
-		
+        <!-- Main jQuery -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+
+        <!-- Bootstrap.bundle Script -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        <!-- Owl Carousel JS -->
+        <script src="js/owl.carousel.min.js"></script>
+
+        <!-- Custom Query -->
+        <script src="js/scripts.js"></script>
+
         <!-- Scroll-Top button -->
         <a href="#" class="scrolltotop" style="display: none;">
-            <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+            <i class="fa-regular fa-arrow-up" aria-hidden="true"></i>
             <span class="pluse"></span>
             <span class="pluse2"></span>
         </a>
-		
-	</body>
+    </body>
 </html>

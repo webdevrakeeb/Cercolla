@@ -18,9 +18,6 @@ Extra Large Screen - Others
     .featured-products-wrpper {
         padding: 0 15px;
     }
-
-
-
 }
 /*=============================
 Extra Large Screen - Others
@@ -56,11 +53,6 @@ Extra Large Screen - Others
     .fragrances-title h2 {
         font-size: 40px;
     }
-
-    
-
-
-
 }
 
 /*========================
@@ -124,8 +116,6 @@ Large Screen - Leptop
         font-size: 18px;
         margin-bottom: 25px;
     }
-
-
 }
 
 /*=========================
@@ -165,7 +155,8 @@ Medium Screen - Tablate
         padding: 13px 30px;
         font-size: 14px;
     }
-    .owl-prev i, .owl-next i {
+    .owl-prev i,
+    .owl-next i {
         font-size: 26px;
     }
     .hero-slider-wrpper {
@@ -228,10 +219,16 @@ Medium Screen - Tablate
         margin-bottom: 25px;
     }
 
-
-
+    .footer-card-one {
+        text-align: center;
+    }
+    .newsletter-email {
+        margin: auto;
+    }
+    .social-icons ul {
+        justify-content: center;
+    }
 }
-
 
 /*===============================
 Xtra Small Screen - Small Mobile
@@ -281,7 +278,8 @@ Xtra Small Screen - Small Mobile
     .hero-slider .owl-next {
         right: 0;
     }
-    .hero-slider .owl-prev i, .hero-slider .owl-next i {
+    .hero-slider .owl-prev i,
+    .hero-slider .owl-next i {
         font-size: 20px;
     }
     .hero-slider .owl-dots {
@@ -386,5 +384,28 @@ Xtra Small Screen - Small Mobile
         font-size: 30px;
     }
 
-
+    .footer-single-card {
+        padding: 20px 0 20px 0;
+        text-align: center;
+    }
+    .footer-single-card.quick-links {
+        padding-left: 0px;
+    }
+    .quick-links > span,
+    .newsletter-email {
+        margin: auto;
+    }
+    .social-icons ul {
+        justify-content: center;
+    }
+    .quick-link-list ul {
+        margin-top: 10px;
+    }
+    .copy-right-card p {
+        text-align: center;
+    }
+    .allowed-payment-method img {
+        margin: auto;
+        margin-top: 15px;
+    }
 }
