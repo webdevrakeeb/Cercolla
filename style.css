@@ -975,5 +975,44 @@ BEST SELLER CSS HERE
     margin-top: 38px;
 }
 
+/*======================
+INSTAGRAM CSS HERE
+========================*/
 
+.insta-single-slide a img {
+    transition: all 0.5s ease;
+}
 
+.insta-single-slide a:hover img {
+    filter: brightness(0.3);
+}
+
+.instagram-post-slider {
+    position: relative;
+}
+
+.instagram-title {
+    top: calc(50% - 30px);
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translate(-50%);
+    z-index: 2;
+    position: absolute;
+    background: #fff;
+    padding: 0 20px;
+}
+
+.instagram-title h3 {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    font-size: 20px;
+    line-height: 60px;
+    white-space: nowrap;
+    color: #000;
+    text-transform: lowercase;
+}
+
+.instagram-title h3 i {
+    font-size: 35px;
+}

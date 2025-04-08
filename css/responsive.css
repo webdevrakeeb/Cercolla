@@ -378,5 +378,13 @@ Xtra Small Screen - Small Mobile
         padding: 50px 0;
     }
 
+    .instagram-title h3 {
+        font-size: 16px;
+        column-gap: 10px;
+    }
+    .instagram-title h3 i {
+        font-size: 30px;
+    }
+
 
 }

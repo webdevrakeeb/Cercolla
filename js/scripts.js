@@ -96,6 +96,39 @@
 			}
 		});
 
+		// INSTAGRAM Slider Activation
+		jQuery('#instagram-post').owlCarousel({
+			nav: false,
+			dots: false,
+			mouseDrag: false,
+			responsive: {
+				1200 : {
+					items: 6
+				},
+				992 : {
+					items: 4,
+					mouseDrag: true,
+					autoplay: true,
+					smartSpeed: 1000,
+					loop: true,
+				},
+				600 : {
+					items: 3,
+					mouseDrag: true,
+					autoplay: true,
+					smartSpeed: 1000,
+					loop: true,
+				},
+				0 : {
+					items: 2,
+					mouseDrag: true,
+					autoplay: true,
+					smartSpeed: 1000,
+					loop: true,
+				}
+			}
+		})
+
 
 
 		
