@@ -331,6 +331,14 @@ Medium Screen - Tablate
         display: none;
     }
 
+    .products-details-desc-card {
+        padding-left: 0px;
+    }
+    .four-cards-area {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
 
 
 
@@ -568,6 +576,25 @@ Xtra Small Screen - Small Mobile
     }
     .pagination-row {
         padding-top: 20px;
+    }
+
+    .products-details-desc-card {
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .four-cards-area {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .four-cards-wrpper .row {
+        row-gap: 15px;
+    }
+
+    .page-navigation-bread-crumb-area .col-sm-4 {
+        display: none;
+    }
+    .garanty-banner img {
+        width: 85%;
     }
 
 
