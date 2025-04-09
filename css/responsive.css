@@ -116,6 +116,63 @@ Large Screen - Leptop
         font-size: 18px;
         margin-bottom: 25px;
     }
+
+
+    .aside-filter-card .filter-card {
+        display: flex;
+        width: 100%;
+        padding-right: 0;
+        padding-top: 55px;
+    }
+    .offcanvas-body.aside-filter-card {
+        display: initial;
+        padding-top: 0;
+        position: relative;
+        padding-left: 25px;
+    }
+    .aside-filter-card .product-post-wrpper {
+        margin-top: 0;
+    }
+    #small-screen-filter-bar .offcanvas-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .aside-filter-close-icon {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #ccc;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .aside-filter-close-icon i {
+        font-size: 35px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /*=========================
@@ -228,6 +285,57 @@ Medium Screen - Tablate
     .social-icons ul {
         justify-content: center;
     }
+
+    .aside-filter-card .filter-card {
+        display: flex;
+        width: 100%;
+        padding-right: 0;
+        padding-top: 55px;
+    }
+    .offcanvas-body.aside-filter-card {
+        display: initial;
+        padding-top: 0;
+        position: relative;
+        padding-left: 25px;
+    }
+    .aside-filter-card .product-post-wrpper {
+        margin-top: 0;
+    }
+    #small-screen-filter-bar .offcanvas-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .aside-filter-close-icon {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #ccc;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    .aside-filter-close-icon i {
+        font-size: 35px;
+    }
+    .single-poduct-card {
+        width: 31%;
+    }
+    .all-products-card {
+        column-gap: 3.5%;
+    }
+    .grid-icon-card {
+        display: none;
+    }
+
+
+
+
+
+
 }
 
 /*===============================
@@ -408,4 +516,72 @@ Xtra Small Screen - Small Mobile
         margin: auto;
         margin-top: 15px;
     }
+
+
+    .aside-filter-card .filter-card {
+        display: flex;
+        width: 100%;
+        padding-right: 0;
+        padding-top: 55px;
+    }
+    .offcanvas-body.aside-filter-card {
+        display: initial;
+        padding-top: 0;
+        position: relative;
+        padding-left: 25px;
+    }
+    .aside-filter-card .product-post-wrpper {
+        margin-top: 0;
+    }
+    #small-screen-filter-bar .offcanvas-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .aside-filter-close-icon {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #ccc;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    .aside-filter-close-icon i {
+        font-size: 35px;
+    }
+    .single-poduct-card {
+        width: 48%;
+    }
+    .all-products-card {
+        column-gap: 3.5%;
+    }
+    .grid-icon-card {
+        display: none;
+    }
+    .name-price-card h3 {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .pagination-row {
+        padding-top: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

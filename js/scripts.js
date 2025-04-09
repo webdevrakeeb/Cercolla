@@ -162,10 +162,22 @@
 		});
 
 
-		jQuery('.filter-btn-card button').on('click', function(){
-			jQuery('.filter-card').toggleClass('col-lg-3');
-			jQuery('.all-products-card').toggleClass('col-lg-9');
-		})
+
+
+		// jQuery('.filter-btn-card button').on('click', function(){
+		// 	jQuery('.filter-card').toggleClass('col-lg-3');
+		// 	jQuery('.all-products-card').toggleClass('col-lg-9');
+		// })
+
+		jQuery('.filter-btn-card button').on('click', function() {
+			if (jQuery(window).width() >= 1200) {
+				jQuery('.filter-card').toggleClass('col-lg-3');
+				jQuery('.all-products-card').toggleClass('col-lg-9');
+			}
+		});
+		
+
+
 
 		jQuery('.colors ul li').click(function(){
 			jQuery(this).toggleClass('color-active')
