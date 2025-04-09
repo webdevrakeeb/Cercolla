@@ -129,7 +129,47 @@
 			}
 		})
 
+		jQuery('.single-column-number').click(function(){
+			jQuery('.single-column-number').removeClass('grid-active');
+			jQuery(this).addClass('grid-active');
+		});
 
+
+		jQuery('.single-column-number').on('click', function() {
+			var clickedValue = jQuery(this).find('span').text();
+			if (clickedValue == 2) {
+				jQuery('.single-poduct-card').addClass('width-49');
+				jQuery('.single-poduct-card').removeClass('width-32');
+				jQuery('.single-poduct-card').removeClass('width-24');
+				jQuery('.single-poduct-card').removeClass('width-19');
+			} else if (clickedValue == 3) {
+				jQuery('.single-poduct-card').addClass('width-32');
+				jQuery('.single-poduct-card').removeClass('width-49');
+				jQuery('.single-poduct-card').removeClass('width-24');
+				jQuery('.single-poduct-card').removeClass('width-19');
+			} else if (clickedValue == 4) {
+				jQuery('.single-poduct-card').addClass('width-24');
+				jQuery('.single-poduct-card').removeClass('width-49');
+				jQuery('.single-poduct-card').removeClass('width-32');
+				jQuery('.single-poduct-card').removeClass('width-19');
+			}
+			else if (clickedValue == 5) {
+				jQuery('.single-poduct-card').addClass('width-19');
+				jQuery('.single-poduct-card').removeClass('width-49');
+				jQuery('.single-poduct-card').removeClass('width-32');
+				jQuery('.single-poduct-card').removeClass('width-24');
+			}
+		});
+
+
+		jQuery('.filter-btn-card button').on('click', function(){
+			jQuery('.filter-card').toggleClass('col-lg-3');
+			jQuery('.all-products-card').toggleClass('col-lg-9');
+		})
+
+		jQuery('.colors ul li').click(function(){
+			jQuery(this).toggleClass('color-active')
+		})
 
 		
 
