@@ -1213,3 +1213,42 @@ FOOTER CSS HERE
     color: #111;
     font-size: 14px;
 }
+
+
+/*======================
+FULL WIDTH PAGE CSS HERE
+========================*/
+.full-width-footer .footer-top-wrpper {
+    background-color: #fff;
+    border-top: 0;
+}
+
+.full-width-footer .footer-bottom-wrpper {
+    background: #fff;
+}
+
+.full-width-footer .footer-wrpper .fcbdr {
+    border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
