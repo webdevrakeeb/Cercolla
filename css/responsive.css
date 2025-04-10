@@ -623,6 +623,52 @@ Xtra Small Screen - Small Mobile
         padding-right: 7px;
     }
 
+    .title-overview h2 {
+        font-size: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #related-post .owl-dots {
+        display: none;
+    }
+
+    #related-post .owl-prev i, 
+    #related-post .owl-next i {
+        font-size: 15px;
+        color: #111;
+    }
+
+    #related-post .owl-prev,
+    #related-post .owl-next {
+        position: absolute;
+        top: 28%;
+        /* z-index: 55; */
+        width: 30px;
+        height: 30px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #related-post .owl-prev {
+        left: -13px;
+    }
+
+    #related-post .owl-next {
+        right: -13px;
+    }
+    .related-post-wrpper {
+        padding-bottom: 10px;
+    }
+    #related-post .owl-nav {
+        text-align: left !important;
+    }
+    .blog-tag-list ul {
+        justify-content: flex-start;
+        padding: 10px 0;
+    }
+
 
 
 

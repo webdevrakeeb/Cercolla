@@ -211,10 +211,36 @@
 			}
 		});
 
+
+		// Related Post Slider Activation
+		jQuery('#related-post').owlCarousel({
+			items: 1,
+			dots: true,
+			// dotsEach: true,
+			// loop: true,
+			smartSpeed: 1000,
+			responsive : {
+				768 : {
+					items: 3,
+					margin:30
+				},
+				500 : {
+					items: 2,
+					margin:10
+				},
+				0 : {
+					items: 1,
+					margin:10,
+					nav: true,
+					navText: ['<i class="fa-regular fa-chevron-left"></i>', '<i class="fa-regular fa-chevron-right"></i>'],
+				}
+			}
+		});
+
 		
 
 				
-		
+
 		
 		
 		

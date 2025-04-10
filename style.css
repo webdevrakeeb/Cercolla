@@ -2555,18 +2555,321 @@ RELATED PRODUCT AREA CSS HERE
 
 
 
+/*======================
+BLOG PAGE CSS HERE
+========================*/
+.blog-bread-crumb ul {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 20px 0;
+}
+
+.blog-bread-crumb ul li a {
+    color: #969696;
+    font-size: 14px;
+    font-weight: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.blog-bread-crumb ul li i {
+    font-size: 10px;
+}
+
+.blog-bread-crumb ul li {
+    font-size: 14px;
+    line-height: 24px;
+    color: #522b1f;
+    font-weight: bolder;
+}
+
+.title-overview {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+}
+
+.title-overview h2 {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.title-overview ul {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.title-overview ul li i {
+    font-size: 12px;
+    color: #fff;
+}
+
+.title-overview ul li a {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0;
+    font-weight: 400;
+    padding-left: 5px;
+    text-transform: capitalize;
+}
+
+.blog-post-cnt {
+    padding-top: 30px;
+}
+
+.blog-post-cnt p {
+    font-size: 14px;
+    color: #a8a8a8;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.post-video-card iframe {
+    width: 100%;
+    display: block;
+}
 
 
+.post-video-card video {
+    width: 100%
+}
+
+.video-list {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.video-list li {
+    font-size: 14px;
+    color: #a8a8a8;
+    line-height: 28px;
+}
+
+.video-list li a {
+    color: #111;
+    transition: all 0.3s ease;
+}
+
+.video-list li a:hover {
+    color: #522b1f;
+}
+
+.blog-tags-social {
+    padding-top: 45px;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.blog-tag span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.blog-tag-list ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 5px;
+}
+
+.blog-tag-list ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 40px;
+    background: #eee;
+    transition: all 0.4s ease;
+}
+
+.blog-tag-list ul li a i {
+    font-size: 12px;
+    font-weight: 400;
+    color: #111;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    transition: all 0.4s ease;
+}
+
+.blog-tag-list ul li a:hover {
+    background-color: #4C281D;
+}
+
+.blog-tag-list ul li a:hover i {
+    color: #fff;
+}
+
+.change-post-nav {
+    padding-top: 38px;
+}
+
+.change-post-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.change-post-nav ul li a {
+    color: #522b1f;
+    border-bottom: 1px solid #522b1f;
+}
 
 
+/*======================
+RELATED POST CSS HERE
+========================*/
+.related-post-wrpper {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
 
 
+#related-post .owl-dots {
+	display: block;
+}
 
+.srp-thum {
+    overflow: hidden;
+}
 
+.srp-thum img {
+    min-height: 300px;
+    object-fit: cover;
+    transition: all 0.6s ease;
+}
 
+.srp-thum img:hover {
+    transform: scale(1.1);
+}
 
+.post-date {
+    width: 66px;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    padding: 10px 15px;
+    background-color: #fff;
+    top: 30px;
+    left: 30px;
+}
 
+.owl-carousel .owl-stage-outer {
+	line-height: 0;
+}
 
+.post-date p {
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    line-height: 1.5;
+}
+
+.post-date p::before {
+    content: "";
+    height: 1px;
+    width: 44px;
+    display: block;
+    background-color: #c8c8c8;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.post-date span {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.releted-post-slider {
+	padding-top: 30px;
+}
+
+.rp-cnt h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: #522b1f;
+    padding-bottom: 5px;
+}
+
+.rp-cnt h3 a {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    transition: .8s;
+    padding-bottom: 25px;
+}
+
+.rp-cnt h3 a::after {
+    content: "";
+    width: 55px;
+    height: 1px;
+    background-color: #e0e0e0;
+    display: block;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+
+.rp-cnt > a {
+    padding: 10px 0;
+}
+
+.read-more {
+    padding-top: 23px;
+    padding-bottom: 30px;
+}
+
+.read-more a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111;
+    line-height: 1.5;
+    border-bottom: 2px solid #111;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: #000000;
+}
+.owl-theme .owl-dots .owl-dot span {
+	margin: 5px 4px;
+}
+
+.img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0) ) ;
+    top: 0;
+    left: 0;
+}
 
 
 
