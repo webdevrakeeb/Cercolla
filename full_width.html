@@ -8,12 +8,12 @@
         <meta name="keywords" content="">
         <meta name="decription" content="">
         <meta name="designer" content="">
-		
+
         <!-- Title -->
-        <title>Cercolla</title>
+        <title>Cercolla - Full Width</title>
 
         <!-- Fav Icon -->
-        <link rel="icon" href="images/favicon.ico" />
+        <link rel="icon" href="images/fav-icon.png" />
 
         <!-- Include Bootstrap -->
         <link rel="stylesheet" href="css/bootstrap.css" />
@@ -67,7 +67,7 @@
                         <div class="tools-card">
                             <ul class="tools-list">
                                 <li>
-                                    <a href="#">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#searchModal">
                                         <i class="fa-regular fa-magnifying-glass"></i>
                                     </a>
                                 </li>
@@ -93,6 +93,29 @@
             </div>
         </section>
         <!-- HEADER HERO AREA END -->
+
+        <!-- SEARCH POPUP START -->
+        <div class="modal search fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content search-modal-cnt">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form action="">
+                        <div class="modal-body">
+                            <div class="search-field">
+                                <input type="search" name="search" id="search" placeholder="Wirte Here....">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- SEARCH POPUP END -->
 
         <!-- SHOPING CART START -->
         <aside class="offcanvas offcanvas-end" tabindex="-1" id="ShoppingCart" aria-labelledby="offcanvasRightLabel">
@@ -268,14 +291,17 @@
             <div class="bradcome-wrpper">
                 <h2>Products</h2>
                 <ul class="bread-crumb">
-                    <li><a href="index.html">home</a></li>
-                    <li><i class="fa-regular fa-chevron-right"></i></li>
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-chevron-right"></i>
+                    </li>
                     <li>Products</li>
                 </ul>
             </div>
         </section>
         <!-- BRADCOME AREA END -->
-
 
         <!-- PRODUCTS POST AREA START -->
         <section class="product-post-area">
@@ -285,13 +311,9 @@
                         <div class="col-6 col-lg-8">
                             <div class="filter-btn-card">
                                 <button class="d-xl-none" data-bs-toggle="offcanvas" data-bs-target="#small-screen-filter-bar" aria-controls="offcanvasExample">
-                                    <i class="fa-regular fa-filter"></i>
-                                    filter
-                                </button>
+                                    <i class="fa-regular fa-filter"></i> filter </button>
                                 <button class="d-none d-xl-block">
-                                    <i class="fa-regular fa-filter"></i>
-                                    filter
-                                </button>
+                                    <i class="fa-regular fa-filter"></i> filter </button>
                             </div>
                         </div>
                         <div class="col-6 col-lg-4">
@@ -317,17 +339,29 @@
                                 </div>
                                 <div class="dropdown-btn">
                                     <div class="dropdown">
-                                        <button id="dropdown-btn" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                          Default sorting
-                                        </button>
+                                        <button id="dropdown-btn" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> Default sorting </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                          <li><a class="dropdown-item" href="#">Default sorting</a></li>
-                                          <li><a class="dropdown-item" href="#">Best Selling</a></li>
-                                          <li><a class="dropdown-item" href="#">Alphabetically, A-Z</a></li>
-                                          <li><a class="dropdown-item" href="#">Price, high to low</a></li>
-                                          <li><a class="dropdown-item" href="#">Price, low to high</a></li>
-                                          <li><a class="dropdown-item" href="#">Date, old to new</a></li>
-                                          <li><a class="dropdown-item" href="#">Date, new to old</a></li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Default sorting</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Best Selling</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Alphabetically, A-Z</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Price, high to low</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Price, low to high</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Date, old to new</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Date, new to old</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -343,12 +377,31 @@
                                     <h2>Categories</h2>
                                 </div>
                                 <ul>
-                                    <li class="categorie-active"><a href="#"><i class="fa-regular fa-chevron-right"></i>home</a><i class="fa-regular fa-chevron-down"></i></li>
-                                    <li><a href="#"><i class="fa-regular fa-chevron-right"></i>Shop</a><i class="fa-regular fa-chevron-down"></i></li>
-                                    <li><a href="#"><i class="fa-regular fa-chevron-right"></i>Featured</a><i class="fa-regular fa-chevron-down"></i></li>
-                                    <li><a href="#"><i class="fa-regular fa-chevron-right"></i>Pages</a><i class="fa-regular fa-chevron-down"></i></li>
-                                    <li><a href="#"><i class="fa-regular fa-chevron-right"></i>Blogs</a><i class="fa-regular fa-chevron-down"></i></li>
-                                    
+                                    <li class="categorie-active">
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevron-right"></i>home </a>
+                                        <i class="fa-regular fa-chevron-down"></i>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevron-right"></i>Shop </a>
+                                        <i class="fa-regular fa-chevron-down"></i>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevron-right"></i>Featured </a>
+                                        <i class="fa-regular fa-chevron-down"></i>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevron-right"></i>Pages </a>
+                                        <i class="fa-regular fa-chevron-down"></i>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevron-right"></i>Blogs </a>
+                                        <i class="fa-regular fa-chevron-down"></i>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="categories price">
@@ -359,39 +412,28 @@
                                     <li>
                                         <label class="custom-checkbox">
                                             <input type="checkbox">
-                                            <span class="checkmark"></span>
-                                            $10 - $20
-                                        </label>
+                                            <span class="checkmark"></span> $10 - $20 </label>
                                     </li>
                                     <li>
                                         <label class="custom-checkbox">
                                             <input type="checkbox">
-                                            <span class="checkmark"></span>
-                                            $20 - $30
-                                        </label>
+                                            <span class="checkmark"></span> $20 - $30 </label>
                                     </li>
                                     <li>
                                         <label class="custom-checkbox">
                                             <input type="checkbox">
-                                            <span class="checkmark"></span>
-                                            $30 - $50
-                                        </label>
+                                            <span class="checkmark"></span> $30 - $50 </label>
                                     </li>
                                     <li>
                                         <label class="custom-checkbox">
                                             <input type="checkbox">
-                                            <span class="checkmark"></span>
-                                            $50 - $100
-                                        </label>
+                                            <span class="checkmark"></span> $50 - $100 </label>
                                     </li>
                                     <li>
                                         <label class="custom-checkbox">
                                             <input type="checkbox">
-                                            <span class="checkmark"></span>
-                                            $100 - $200
-                                        </label>
+                                            <span class="checkmark"></span> $100 - $200 </label>
                                     </li>
-                                    
                                 </ul>
                             </div>
                             <div class="categories size">
@@ -452,26 +494,66 @@
                                     <h2>Tags</h2>
                                 </div>
                                 <ul>
-                                    <li><a href="#">$10 - $20</a></li>
-                                    <li><a href="#">$100 - $200</a></li>
-                                    <li><a href="#">$20 - $30</a></li>
-                                    <li><a href="#">$200 - $300</a></li>
-                                    <li><a href="#">$30 - $50</a></li>
-                                    <li><a href="#">$50 - $100</a></li>
-                                    <li><a href="#">Black</a></li>
-                                    <li><a href="#">Blue</a></li>
-                                    <li><a href="#">Brown</a></li>
-                                    <li><a href="#">Green</a></li>
-                                    <li><a href="#">Grey</a></li>
-                                    <li><a href="#">L</a></li>
-                                    <li><a href="#">M</a></li>
-                                    <li><a href="#">Nude</a></li>
-                                    <li><a href="#">Pink</a></li>
-                                    <li><a href="#">Red</a></li>
-                                    <li><a href="#">S</a></li>
-                                    <li><a href="#">XL</a></li>
-                                    <li><a href="#">XXl</a></li>
-                                    <li><a href="#">Yellow</a></li>
+                                    <li>
+                                        <a href="#">$10 - $20</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">$100 - $200</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">$20 - $30</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">$200 - $300</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">$30 - $50</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">$50 - $100</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Black</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blue</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Brown</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Green</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Grey</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">L</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">M</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nude</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pink</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Red</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">S</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">XL</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">XXl</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Yellow</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="categories brands">
@@ -479,7 +561,10 @@
                                     <h2>Brands</h2>
                                 </div>
                                 <ul>
-                                    <li><a href="#"><i class="fa-regular fa-chevron-right"></i>Decorks</a></li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevron-right"></i>Decorks </a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="banner-side-bar">
@@ -934,21 +1019,27 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="pagination-row">
                             <ul>
-                                <li class="page-active"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#"><i class="fa-regular fa-chevron-right"></i></a></li>
+                                <li class="page-active">
+                                    <a href="#">1</a>
+                                </li>
+                                <li>
+                                    <a href="#">2</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-regular fa-chevron-right"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
-                        
                     </div>
                 </div>
             </div>
         </section>
         <!-- PRODUCTS POST AREA END -->
-          
+
         <!-- SMALL SCREEN FITLER CARD -->
         <aside class="offcanvas offcanvas-start" tabindex="-1" id="small-screen-filter-bar" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-body aside-filter-card">
@@ -963,12 +1054,31 @@
                                     <h2>Categories</h2>
                                 </div>
                                 <ul>
-                                    <li class="categorie-active"><a href="#"><i class="fa-regular fa-chevron-right"></i>home</a><i class="fa-regular fa-chevron-down"></i></li>
-                                    <li><a href="#"><i class="fa-regular fa-chevron-right"></i>Shop</a><i class="fa-regular fa-chevron-down"></i></li>
-                                    <li><a href="#"><i class="fa-regular fa-chevron-right"></i>Featured</a><i class="fa-regular fa-chevron-down"></i></li>
-                                    <li><a href="#"><i class="fa-regular fa-chevron-right"></i>Pages</a><i class="fa-regular fa-chevron-down"></i></li>
-                                    <li><a href="#"><i class="fa-regular fa-chevron-right"></i>Blogs</a><i class="fa-regular fa-chevron-down"></i></li>
-                                    
+                                    <li class="categorie-active">
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevron-right"></i>home </a>
+                                        <i class="fa-regular fa-chevron-down"></i>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevron-right"></i>Shop </a>
+                                        <i class="fa-regular fa-chevron-down"></i>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevron-right"></i>Featured </a>
+                                        <i class="fa-regular fa-chevron-down"></i>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevron-right"></i>Pages </a>
+                                        <i class="fa-regular fa-chevron-down"></i>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevron-right"></i>Blogs </a>
+                                        <i class="fa-regular fa-chevron-down"></i>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="categories price">
@@ -979,39 +1089,28 @@
                                     <li>
                                         <label class="custom-checkbox">
                                             <input type="checkbox">
-                                            <span class="checkmark"></span>
-                                            $10 - $20
-                                        </label>
+                                            <span class="checkmark"></span> $10 - $20 </label>
                                     </li>
                                     <li>
                                         <label class="custom-checkbox">
                                             <input type="checkbox">
-                                            <span class="checkmark"></span>
-                                            $20 - $30
-                                        </label>
+                                            <span class="checkmark"></span> $20 - $30 </label>
                                     </li>
                                     <li>
                                         <label class="custom-checkbox">
                                             <input type="checkbox">
-                                            <span class="checkmark"></span>
-                                            $30 - $50
-                                        </label>
+                                            <span class="checkmark"></span> $30 - $50 </label>
                                     </li>
                                     <li>
                                         <label class="custom-checkbox">
                                             <input type="checkbox">
-                                            <span class="checkmark"></span>
-                                            $50 - $100
-                                        </label>
+                                            <span class="checkmark"></span> $50 - $100 </label>
                                     </li>
                                     <li>
                                         <label class="custom-checkbox">
                                             <input type="checkbox">
-                                            <span class="checkmark"></span>
-                                            $100 - $200
-                                        </label>
+                                            <span class="checkmark"></span> $100 - $200 </label>
                                     </li>
-                                    
                                 </ul>
                             </div>
                             <div class="categories size">
@@ -1072,26 +1171,66 @@
                                     <h2>Tags</h2>
                                 </div>
                                 <ul>
-                                    <li><a href="#">$10 - $20</a></li>
-                                    <li><a href="#">$100 - $200</a></li>
-                                    <li><a href="#">$20 - $30</a></li>
-                                    <li><a href="#">$200 - $300</a></li>
-                                    <li><a href="#">$30 - $50</a></li>
-                                    <li><a href="#">$50 - $100</a></li>
-                                    <li><a href="#">Black</a></li>
-                                    <li><a href="#">Blue</a></li>
-                                    <li><a href="#">Brown</a></li>
-                                    <li><a href="#">Green</a></li>
-                                    <li><a href="#">Grey</a></li>
-                                    <li><a href="#">L</a></li>
-                                    <li><a href="#">M</a></li>
-                                    <li><a href="#">Nude</a></li>
-                                    <li><a href="#">Pink</a></li>
-                                    <li><a href="#">Red</a></li>
-                                    <li><a href="#">S</a></li>
-                                    <li><a href="#">XL</a></li>
-                                    <li><a href="#">XXl</a></li>
-                                    <li><a href="#">Yellow</a></li>
+                                    <li>
+                                        <a href="#">$10 - $20</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">$100 - $200</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">$20 - $30</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">$200 - $300</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">$30 - $50</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">$50 - $100</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Black</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blue</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Brown</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Green</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Grey</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">L</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">M</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nude</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pink</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Red</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">S</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">XL</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">XXl</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Yellow</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="categories brands">
@@ -1099,7 +1238,10 @@
                                     <h2>Brands</h2>
                                 </div>
                                 <ul>
-                                    <li><a href="#"><i class="fa-regular fa-chevron-right"></i>Decorks</a></li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevron-right"></i>Decorks </a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="banner-side-bar">
@@ -1113,7 +1255,6 @@
             </div>
         </aside>
         <!-- SMALL SCREEN FITLER CARD -->
-
 
         <!-- FOOTER ARES START -->
         <footer class="footer-area full-width-footer">
@@ -1130,14 +1271,6 @@
                                     </div>
                                     <div class="footer-cnt">
                                         <p>Subscribe our newsletter and get <br> discount 30% off </p>
-                                    </div>
-                                    <div class="newsletter-email">
-                                        <form class="" action="#" method="">
-                                            <input type="email" name="newsletter_email" id="newsletter_email" placeholder="Your email address...">
-                                            <button type="submit">
-                                                <i class="fa-solid fa-paper-plane"></i>
-                                            </button>
-                                        </form>
                                     </div>
                                     <div class="social-icons">
                                         <ul>
@@ -1263,19 +1396,18 @@
         </footer>
         <!-- FOOTER ARES END -->
 
-		<!-- Footer Year Handler -->
+        <!-- Footer Year Handler -->
         <script>
             const findYear = new Date();
             const fullYear = findYear.getFullYear();
             document.getElementById('year').innerText = fullYear;
 
             const dropDownBtn = document.getElementById('dropdown-btn');
-            dropDownBtn.addEventListener('mouseleave', function(){
+            dropDownBtn.addEventListener('mouseleave', function() {
                 this.style.backgroundColor = "transparent";
                 this.style.color = "#969696";
                 this.style.borderBottomColor = "#969696"
             })
-
         </script>
 
         <!-- Main jQuery -->

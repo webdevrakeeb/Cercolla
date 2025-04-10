@@ -117,7 +117,6 @@ Large Screen - Leptop
         margin-bottom: 25px;
     }
 
-
     .aside-filter-card .filter-card {
         display: flex;
         width: 100%;
@@ -159,24 +158,6 @@ Large Screen - Leptop
     .tab-prod-cnt {
         padding-left: 0;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /*=========================
@@ -347,10 +328,6 @@ Medium Screen - Tablate
     .col-lg-6.cnt-two {
         padding-left: 0;
     }
-
-
-
-
 }
 
 /*===============================
@@ -532,7 +509,6 @@ Xtra Small Screen - Small Mobile
         margin-top: 15px;
     }
 
-
     .aside-filter-card .filter-card {
         display: flex;
         width: 100%;
@@ -632,7 +608,7 @@ Xtra Small Screen - Small Mobile
         display: none;
     }
 
-    #related-post .owl-prev i, 
+    #related-post .owl-prev i,
     #related-post .owl-next i {
         font-size: 15px;
         color: #111;
@@ -668,19 +644,4 @@ Xtra Small Screen - Small Mobile
         justify-content: flex-start;
         padding: 10px 0;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

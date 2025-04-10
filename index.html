@@ -8,12 +8,12 @@
         <meta name="keywords" content="">
         <meta name="decription" content="">
         <meta name="designer" content="">
-		
+
         <!-- Title -->
-        <title>Cercolla</title>
+        <title>Cercolla - Home</title>
 
         <!-- Fav Icon -->
-        <link rel="icon" href="images/favicon.ico" />
+        <link rel="icon" href="images/fav-icon.png" />
 
         <!-- Include Bootstrap -->
         <link rel="stylesheet" href="css/bootstrap.css" />
@@ -67,7 +67,7 @@
                         <div class="tools-card">
                             <ul class="tools-list">
                                 <li>
-                                    <a href="#">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#searchModal">
                                         <i class="fa-regular fa-magnifying-glass"></i>
                                     </a>
                                 </li>
@@ -93,6 +93,29 @@
             </div>
         </section>
         <!-- HEADER HERO AREA END -->
+
+        <!-- SEARCH POPUP START -->
+        <div class="modal search fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content search-modal-cnt">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form action="">
+                        <div class="modal-body">
+                            <div class="search-field">
+                                <input type="search" name="search" id="search" placeholder="Wirte Here....">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- SEARCH POPUP END -->
 
         <!-- SHOPING CART START -->
         <aside class="offcanvas offcanvas-end" tabindex="-1" id="ShoppingCart" aria-labelledby="offcanvasRightLabel">
@@ -1089,7 +1112,7 @@
         </footer>
         <!-- FOOTER ARES END -->
 
-		<!-- Footer Year Handler -->
+        <!-- Footer Year Handler -->
         <script>
             const findYear = new Date();
             const fullYear = findYear.getFullYear();

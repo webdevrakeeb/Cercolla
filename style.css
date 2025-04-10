@@ -1214,7 +1214,6 @@ FOOTER CSS HERE
     font-size: 14px;
 }
 
-
 /*======================
 FULL WIDTH PAGE CSS HERE
 ========================*/
@@ -1272,7 +1271,6 @@ BRADCOME AREA CSS HERE
     font-size: 12px;
 }
 
-
 /*======================
 PRODUCTS POST AREA CSS HERE
 ========================*/
@@ -1293,7 +1291,7 @@ PRODUCTS POST AREA CSS HERE
 }
 
 .filter-btn-card button:hover {
-    background-color: #522B1F;
+    background-color: #522b1f;
     color: #fff;
 }
 
@@ -1301,17 +1299,18 @@ PRODUCTS POST AREA CSS HERE
     color: #fff;
 }
 
-.btn-check:focus + .btn, .btn:focus,
+.btn-check:focus + .btn,
+.btn:focus,
 .btn-secondary:active:focus {
     outline: none;
-	box-shadow: none;
+    box-shadow: none;
 }
 
 .btn-secondary,
 .btn-secondary:active {
-	background-color: transparent;
-	border: none;
-    border-bottom: 1px solid #D3D3D3;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
     color: #969696;
     font-size: 14px;
     font-weight: 500;
@@ -1320,10 +1319,10 @@ PRODUCTS POST AREA CSS HERE
 
 .btn-secondary:hover,
 .btn-secondary:active {
-	color: #969696;
-	background-color: transparent;
-	border: none;
-    border-bottom: 1px solid #D3D3D3;
+    color: #969696;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
 }
 
 .dropdown button {
@@ -1332,20 +1331,22 @@ PRODUCTS POST AREA CSS HERE
     border-radius: 0;
 }
 
-.btn-secondary:hover, .btn-secondary:active {
-	color: #969696;
-	background-color: transparent;
-	border: none;
-	border-bottom: 1px solid #D3D3D3;
+.btn-secondary:hover,
+.btn-secondary:active {
+    color: #969696;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
 }
 
-.dropdown-item:hover, .dropdown-item:focus {
-	color: #522B1F;
-	background-color: transparent;
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #522b1f;
+    background-color: transparent;
 }
 
 .dropdown-menu li:first-child a {
-    color: #522B1F;
+    color: #522b1f;
     font-weight: 600;
 }
 
@@ -1369,12 +1370,12 @@ PRODUCTS POST AREA CSS HERE
 
 .single-column-number {
     border: 1px solid #000;
-    transition: all .2s ease;
+    transition: all 0.2s ease;
     cursor: pointer;
 }
 
 .single-column-number span {
-    transition: all .2s ease;
+    transition: all 0.2s ease;
     font-size: 16px;
     line-height: 36px;
     color: #232529;
@@ -1404,7 +1405,7 @@ PRODUCTS POST AREA CSS HERE
 
 .grid-active,
 .single-column-number:hover {
-    background-color: #522B1F;
+    background-color: #522b1f;
 }
 
 .grid-active span,
@@ -1455,7 +1456,7 @@ PRODUCTS POST AREA CSS HERE
 
 .filter-card.col-lg-3 {
     display: block;
-}   
+}
 
 .all-products-card {
     flex: 1;
@@ -1547,10 +1548,9 @@ PRODUCTS POST AREA CSS HERE
     font-family: Jost;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     color: #111;
     padding-left: 30px;
-
 }
 
 .custom-checkbox input {
@@ -1575,8 +1575,8 @@ PRODUCTS POST AREA CSS HERE
 }
 
 .custom-checkbox input:checked ~ .checkmark {
-    background-color: #522B1F;
-    border-color: #522B1F;
+    background-color: #522b1f;
+    border-color: #522b1f;
 }
 
 .custom-checkbox .checkmark::after {
@@ -1615,14 +1615,14 @@ PRODUCTS POST AREA CSS HERE
     align-items: center;
     justify-content: center;
     border: 1px solid #111;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .size ul li span {
     font-size: 14px;
     font-weight: 500;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 .size ul li:hover {
@@ -1657,11 +1657,11 @@ PRODUCTS POST AREA CSS HERE
 }
 
 .colors ul li:first-child span {
-    background: #0000FF;
+    background: #0000ff;
 }
 
 .colors ul li:nth-child(2) span {
-    background: #A52A2A;
+    background: #a52a2a;
 }
 
 .colors ul li:nth-child(3) span {
@@ -1673,20 +1673,20 @@ PRODUCTS POST AREA CSS HERE
 }
 
 .colors ul li:nth-child(5) span {
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1px solid #ccc;
 }
 
 .colors ul li:nth-child(6) span {
-    background: #FFC0CB;
+    background: #ffc0cb;
 }
 
 .colors ul li:nth-child(7) span {
-    background: #FF0000;
+    background: #ff0000;
 }
 
 .colors ul li:nth-child(8) span {
-    background: #FFFF00;
+    background: #ffff00;
 }
 
 .colors ul li.color-active {
@@ -1698,8 +1698,8 @@ PRODUCTS POST AREA CSS HERE
 .categories.size,
 .tags,
 .categories.brands {
-	padding-top: 30px;
-	padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .tags ul {
@@ -1716,14 +1716,14 @@ PRODUCTS POST AREA CSS HERE
     border: 1px solid #111111 !important;
     color: #111;
     padding: 10px;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     font-size: 14px;
     font-weight: 500;
 }
 
 .tags ul li a:hover {
     color: #fff;
-    background-color: #522B1F;
+    background-color: #522b1f;
 }
 
 .categories.brands ul li a,
@@ -1731,21 +1731,36 @@ PRODUCTS POST AREA CSS HERE
     font-weight: 400 !important;
 }
 
-.all-products-card .single-poduct-card .single-product-item:hover .product-img-options {
-	bottom: 20px;
-	opacity: 1;
-	visibility: visible;
+.all-products-card
+    .single-poduct-card
+    .single-product-item:hover
+    .product-img-options {
+    bottom: 20px;
+    opacity: 1;
+    visibility: visible;
 }
 
-
-.all-products-card .single-poduct-card .single-product-item .product-img-options ul li a {
-	width: 35px;
-	height: 35px;
+.all-products-card
+    .single-poduct-card
+    .single-product-item
+    .product-img-options
+    ul
+    li
+    a {
+    width: 35px;
+    height: 35px;
 }
 
-.all-products-card .single-poduct-card .single-product-item .product-img-options ul li a i {
-	font-size: 16px;
-	transition: all 0.3s ease;
+.all-products-card
+    .single-poduct-card
+    .single-product-item
+    .product-img-options
+    ul
+    li
+    a
+    i {
+    font-size: 16px;
+    transition: all 0.3s ease;
 }
 
 .pagination-row {
@@ -1774,13 +1789,12 @@ PRODUCTS POST AREA CSS HERE
 .pagination-row ul .page-active a,
 .pagination-row ul li a:hover {
     color: #fff;
-    background: #522B1F;
+    background: #522b1f;
 }
 
 .product-post-area {
-	padding-bottom: 40px;
+    padding-bottom: 40px;
 }
-
 
 /*======================
 PRODUCT PAGE AREA CSS HERE
@@ -1842,7 +1856,7 @@ PAGE NAVIGATION AREA CSS HERE
     color: #111;
     font-size: 9px;
     font-weight: 600;
-    letter-spacing: .2em;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
 }
 
@@ -1904,7 +1918,7 @@ PRODUCT DETAILS AREA CSS HERE
 }
 
 .favourit-icon:hover {
-    background: #522B1F;
+    background: #522b1f;
 }
 
 .favourit-icon i {
@@ -1956,7 +1970,7 @@ PRODUCT DETAILS AREA CSS HERE
     font-weight: 600;
     border-bottom: 1px solid #111111;
     padding-bottom: 4px;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     display: inline-block;
     margin-bottom: 0;
     min-width: 55px;
@@ -1974,9 +1988,9 @@ PRODUCT DETAILS AREA CSS HERE
     padding: 10px 15px;
     border: 1px solid #000;
     color: #000;
-	transition: all .3s ease;
-	font-size: 14px;
-	font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: 600;
     margin-right: 10px;
 }
 
@@ -1984,9 +1998,9 @@ PRODUCT DETAILS AREA CSS HERE
     padding: 10px 15px;
     border: 1px solid #000;
     color: #000;
-	transition: all .3s ease;
-	font-size: 14px;
-	font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: 600;
     opacity: 0.3;
 }
 
@@ -2020,7 +2034,7 @@ PRODUCT DETAILS AREA CSS HERE
 }
 
 .select-color li:nth-child(2) span {
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1px solid #ccc;
 }
 
@@ -2066,7 +2080,7 @@ PRODUCT DETAILS AREA CSS HERE
 }
 
 .product-count {
-    display: flex;   
+    display: flex;
 }
 
 .add-remove-btn ul li {
@@ -2089,19 +2103,18 @@ PRODUCT DETAILS AREA CSS HERE
     text-align: center;
 }
 
-
 .add-card-btn {
     width: calc(100% - 90px);
 }
 
 .add-card-btn button {
     width: 100%;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     padding: 0 39px;
     height: 55px;
     font-size: 14px;
     background: #522b1f;
-    letter-spacing: .2em;
+    letter-spacing: 0.2em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2112,21 +2125,21 @@ PRODUCT DETAILS AREA CSS HERE
 }
 
 .add-card-btn button:hover {
-    background-color: #E96D00;
+    background-color: #e96d00;
 }
 
 .bye-now-btn a {
     padding: 16px 32px;
     margin-top: 25px;
     margin-bottom: 25px;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     width: 306px !important;
     max-width: 100%;
     border-radius: 0 !important;
     height: 55px;
     font-size: 14px !important;
     background: #111;
-    letter-spacing: .2em;
+    letter-spacing: 0.2em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2136,7 +2149,7 @@ PRODUCT DETAILS AREA CSS HERE
 }
 
 .bye-now-btn a:hover {
-    background: #522B1F;
+    background: #522b1f;
 }
 
 .bye-now-btn {
@@ -2164,7 +2177,7 @@ PRODUCT DETAILS AREA CSS HERE
     font-size: 14px;
     font-weight: 400;
     color: #111;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     padding-right: 5px;
 }
@@ -2179,11 +2192,10 @@ PRODUCT DETAILS AREA CSS HERE
 }
 
 .product-details-wrpper .sticky-top {
-	top: 130px;
-	z-index: 1;
-	height: 100%;
+    top: 130px;
+    z-index: 1;
+    height: 100%;
 }
-
 
 /*======================
 FOUR CARDS AREA CSS HERE
@@ -2200,7 +2212,7 @@ FOUR CARDS AREA CSS HERE
 }
 
 .single-card-icon img {
-	width: 70px;
+    width: 70px;
 }
 
 .one-of-four-card p {
@@ -2223,9 +2235,9 @@ PRODUCT TAB AREA CSS HERE
 }
 
 .product-tab-nav {
-	padding: 25px 0;
-	border-top: 1px solid #e4e4e4;
-	border-bottom: 1px solid #e4e4e4;
+    padding: 25px 0;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
 }
 
 .productTab .tab-buttons {
@@ -2256,26 +2268,26 @@ PRODUCT TAB AREA CSS HERE
 }
 
 .productTab .tab-buttons button::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
     position: absolute;
     width: 0%;
     height: 2px;
-    background: #522B1F;
+    background: #522b1f;
     left: 0;
     bottom: 0;
     transition: all 0.8s ease;
 }
 
 .productTab .tab-buttons button.active::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
     position: absolute;
     width: 100%;
     height: 2px;
-    background: #522B1F;
+    background: #522b1f;
     left: 0;
     bottom: 0;
 }
@@ -2339,7 +2351,7 @@ PRODUCT TAB AREA CSS HERE
 }
 
 .tab-prod-cnt {
-	padding-left: 15px;
+    padding-left: 15px;
 }
 
 .more-detail-card ul li {
@@ -2388,7 +2400,7 @@ PRODUCT TAB AREA CSS HERE
 }
 
 .col-lg-6.cnt-one {
-	padding: 0;
+    padding: 0;
 }
 
 .common-card p {
@@ -2429,7 +2441,7 @@ PRODUCT TAB AREA CSS HERE
     padding: 20px 0;
 }
 .product-tab-area {
-	padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 /*======================
@@ -2467,7 +2479,7 @@ SOCIAL LINKS AREA CSS HERE
 }
 
 .social-list li a:hover {
-    background-color: #4C281D;
+    background-color: #4c281d;
 }
 
 .social-list li a:hover i {
@@ -2513,47 +2525,43 @@ RELATED PRODUCT AREA CSS HERE
 }
 
 .owl-dots {
-	display: none;
+    display: none;
 }
 
 #related-product-slider .owl-nav {
-	text-align: left !important;
+    text-align: left !important;
 }
 
 .related-product-slider #related-product-slider .owl-prev {
-	left: -16px !important;
-	top: 50%;
-	width: 30px;
-	height: 30px;
-	transform: translateY(-185%);
-	background: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    left: -16px !important;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-185%);
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #ccc;
 }
 
 .related-product-slider #related-product-slider .owl-next {
-	right: -16px !important;
-	top: 50%;
-	width: 30px;
-	height: 30px;
-	transform: translateY(-185%);
+    right: -16px !important;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-185%);
     background: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #ccc;
 }
 
-.related-product-slider #related-product-slider .owl-prev i, 
+.related-product-slider #related-product-slider .owl-prev i,
 .related-product-slider #related-product-slider .owl-next i {
-	font-size: 14px;
+    font-size: 14px;
 }
-
-
-
-
 
 /*======================
 BLOG PAGE CSS HERE
@@ -2638,9 +2646,8 @@ BLOG PAGE CSS HERE
     display: block;
 }
 
-
 .post-video-card video {
-    width: 100%
+    width: 100%;
 }
 
 .video-list {
@@ -2675,7 +2682,7 @@ BLOG PAGE CSS HERE
     font-weight: 600;
     color: #111;
     text-transform: uppercase;
-    letter-spacing: .2em;
+    letter-spacing: 0.2em;
 }
 
 .blog-tag-list ul {
@@ -2701,12 +2708,12 @@ BLOG PAGE CSS HERE
     font-weight: 400;
     color: #111;
     text-transform: uppercase;
-    letter-spacing: .2em;
+    letter-spacing: 0.2em;
     transition: all 0.4s ease;
 }
 
 .blog-tag-list ul li a:hover {
-    background-color: #4C281D;
+    background-color: #4c281d;
 }
 
 .blog-tag-list ul li a:hover i {
@@ -2728,7 +2735,6 @@ BLOG PAGE CSS HERE
     border-bottom: 1px solid #522b1f;
 }
 
-
 /*======================
 RELATED POST CSS HERE
 ========================*/
@@ -2737,9 +2743,8 @@ RELATED POST CSS HERE
     padding-bottom: 80px;
 }
 
-
 #related-post .owl-dots {
-	display: block;
+    display: block;
 }
 
 .srp-thum {
@@ -2771,8 +2776,8 @@ RELATED POST CSS HERE
     left: 30px;
 }
 
-.owl-carousel .owl-stage-outer {
-	line-height: 0;
+#related-post .owl-stage-outer {
+    line-height: 0;
 }
 
 .post-date p {
@@ -2802,7 +2807,7 @@ RELATED POST CSS HERE
 }
 
 .releted-post-slider {
-	padding-top: 30px;
+    padding-top: 30px;
 }
 
 .rp-cnt h4 {
@@ -2822,7 +2827,7 @@ RELATED POST CSS HERE
     margin-top: 10px;
     display: inline-block;
     position: relative;
-    transition: .8s;
+    transition: 0.8s;
     padding-bottom: 25px;
 }
 
@@ -2855,32 +2860,72 @@ RELATED POST CSS HERE
     border-bottom: 2px solid #111;
 }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-	background: #000000;
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #000000;
 }
 .owl-theme .owl-dots .owl-dot span {
-	margin: 5px 4px;
+    margin: 5px 4px;
 }
 
 .img-overlay {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0) ) ;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.7),
+        rgba(255, 255, 255, 0)
+    );
     top: 0;
     left: 0;
 }
 
+.hero-slider-wrpper .owl-prev,
+.hero-slider-wrpper .owl-next {
+    position: absolute;
+    bottom: -8%;
+}
 
+.modal-content.search-modal-cnt {
+    padding: 20px;
+    border-radius: 0;
+}
 
+.modal.search,
+#user__login {
+    /* background: rgba(51, 51, 51, 1); */
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
 
+#searchModal .modal-header {
+    border-bottom: none;
+}
 
+#searchModal .modal-footer {
+    border-top: none;
+    padding-right: 0;
+    padding-left: 0;
+}
 
+#searchModal .search-field input {
+    display: block;
+    width: 100%;
+    height: 55px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #111;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    outline: none;
+}
 
-
-
-
-
-
-
-
+.btn-close:focus {
+    outline: 0;
+    box-shadow: none;
+}

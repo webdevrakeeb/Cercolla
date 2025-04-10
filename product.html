@@ -8,12 +8,12 @@
         <meta name="keywords" content="">
         <meta name="decription" content="">
         <meta name="designer" content="">
-		
+        
         <!-- Title -->
-        <title>Cercolla</title>
+        <title>Cercolla - Product</title>
 
         <!-- Fav Icon -->
-        <link rel="icon" href="images/favicon.ico" />
+        <link rel="icon" href="images/fav-icon.png" />
 
         <!-- Include Bootstrap -->
         <link rel="stylesheet" href="css/bootstrap.css" />
@@ -67,7 +67,7 @@
                         <div class="tools-card">
                             <ul class="tools-list">
                                 <li>
-                                    <a href="#">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#searchModal">
                                         <i class="fa-regular fa-magnifying-glass"></i>
                                     </a>
                                 </li>
@@ -93,6 +93,29 @@
             </div>
         </section>
         <!-- HEADER HERO AREA END -->
+
+        <!-- SEARCH POPUP START -->
+        <div class="modal search fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content search-modal-cnt">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form action="">
+                        <div class="modal-body">
+                            <div class="search-field">
+                                <input type="search" name="search" id="search" placeholder="Wirte Here....">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- SEARCH POPUP END -->
 
         <!-- SHOPING CART START -->
         <aside class="offcanvas offcanvas-end" tabindex="-1" id="ShoppingCart" aria-labelledby="offcanvasRightLabel">
@@ -263,7 +286,6 @@
         </aside>
         <!-- Mobile Screen Menu End -->
 
-
         <!-- PAGE NAVIGATION AREA START -->
         <section class="page-navigation-bread-crumb-area">
             <div class="container-fluid container-xxl">
@@ -271,8 +293,12 @@
                     <div class="col-sm-8">
                         <div class="product-page-bread-crumb">
                             <ul>
-                                <li><a href="index.html">home</a></li>
-                                <li><i class="fa-regular fa-chevron-right"></i></li>
+                                <li>
+                                    <a href="index.html">home</a>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-chevron-right"></i>
+                                </li>
                                 <li>Candle Holder</li>
                             </ul>
                         </div>
@@ -280,8 +306,14 @@
                     <div class="col-sm-4">
                         <div class="prev-next-nav">
                             <ul>
-                                <li><a href="#"><i class="fa-solid fa-chevron-left"></i>Prev</a></li>
-                                <li><a href="#">Next<i class="fa-solid fa-chevron-right"></i></a></li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-solid fa-chevron-left"></i>Prev </a>
+                                </li>
+                                <li>
+                                    <a href="#">Next <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -289,7 +321,6 @@
             </div>
         </section>
         <!-- PAGE NAVIGATION AREA END -->
-
 
         <!-- PRODUCT DETAILS AREA START -->
         <section class="product-details-area">
@@ -329,7 +360,8 @@
                                         <i class="fa-light fa-heart"></i>
                                     </div>
                                     <h2>Candle Holder</h2>
-                                    <del>$100.00 USD</del> <span>$70.00 USD</span>
+                                    <del>$100.00 USD</del>
+                                    <span>$70.00 USD</span>
                                 </div>
                                 <div class="products-decs-cnt-card">
                                     <p>Being able to read a novel in another language and understand it is a huge achievement. You’ll feel accomplished the moment you read that final page, close the book, and reflect on the experience. You might find yourself at the last page faster than you thought—once you begin reading these...</p>
@@ -338,9 +370,15 @@
                                     <b>3 sold in last 10 Hour</b>
                                 </div>
                                 <ul class="guid-return-ask">
-                                    <li><a href="">Size guide</a></li>
-                                    <li><a href="">Delivery & Return</a></li>
-                                    <li><a href="">Ask a Question</a></li>
+                                    <li>
+                                        <a href="">Size guide</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Delivery & Return</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Ask a Question</a>
+                                    </li>
                                 </ul>
                                 <ul class="product-size">
                                     <li>
@@ -371,8 +409,12 @@
                                         </div>
                                         <div class="add-remove-btn">
                                             <ul>
-                                                <li onclick="addProduct()"><i class="fa-solid fa-caret-up"></i></li>
-                                                <li onclick="removeProduct()"><i class="fa-solid fa-caret-down"></i></li>
+                                                <li onclick="addProduct()">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                </li>
+                                                <li onclick="removeProduct()">
+                                                    <i class="fa-solid fa-caret-down"></i>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -391,10 +433,12 @@
                                 </div>
                                 <ul class="product-code-category">
                                     <li>
-                                        <b>SKU :</b> <span>Z3455-9</span>
+                                        <b>SKU :</b>
+                                        <span>Z3455-9</span>
                                     </li>
                                     <li>
-                                        <b>Categories :</b> <span>Arrivals, Home page, new </span>
+                                        <b>Categories :</b>
+                                        <span>Arrivals, Home page, new </span>
                                     </li>
                                 </ul>
                             </div>
@@ -404,7 +448,6 @@
             </div>
         </section>
         <!-- PRODUCT DETAILS AREA END -->
-
 
         <!-- FOUR CARDS AREA START -->
         <section class="four-cards-area">
@@ -453,7 +496,6 @@
         </section>
         <!-- FOUR CARDS AREA END -->
 
-
         <!-- PRODUCT TAB AREA START -->
         <section class="product-tab-area">
             <div class="productTab">
@@ -464,7 +506,6 @@
                         <button data-tab="tab6">Review</button>
                     </div>
                 </div>
-                
                 <div class="product-tab-cnt-card">
                     <div id="tab4" class="product-tab-content active">
                         <div class="product-tab-desc">
@@ -552,10 +593,18 @@
                                                     </ul>
                                                     <h2>Need more information</h2>
                                                     <ul>
-                                                        <li><a href="#">Orders & Shipping</a></li>
-                                                        <li><a href="#">Returns & Refunds</a></li>
-                                                        <li><a href="#">Payments</a></li>
-                                                        <li><a href="#">Your Orders</a></li>
+                                                        <li>
+                                                            <a href="#">Orders & Shipping</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Returns & Refunds</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Payments</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Your Orders</a>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -574,29 +623,37 @@
                         <div class="review-tab"></div>
                     </div>
                 </div>
-              </div>
+            </div>
         </section>
         <!-- PRODUCT TAB AREA END -->
-
 
         <!-- SOCIAL LINKS AREA START -->
         <section class="social-list-area">
             <ul class="social-list">
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </a>
+                </li>
             </ul>
         </section>
         <!-- SOCIAL LINKS AREA END -->
-
 
         <!-- RELATED PRODUCT AREA START -->
         <section class="related-product-area">
             <div class="container-fluid container-xxl">
                 <div class="related-product-wrpper text-center">
-                    <div class="rptitle-card">
-                        Related Products
-                    </div>
+                    <div class="rptitle-card"> Related Products </div>
                     <div class="related-product-slider">
                         <div id="related-product-slider" class="owl-carousel owl-theme">
                             <!-- Single Product Item -->
@@ -797,14 +854,6 @@
                                     <div class="footer-cnt">
                                         <p>Subscribe our newsletter and get <br> discount 30% off </p>
                                     </div>
-                                    <div class="newsletter-email">
-                                        <form class="" action="#" method="">
-                                            <input type="email" name="newsletter_email" id="newsletter_email" placeholder="Your email address...">
-                                            <button type="submit">
-                                                <i class="fa-solid fa-paper-plane"></i>
-                                            </button>
-                                        </form>
-                                    </div>
                                     <div class="social-icons">
                                         <ul>
                                             <li>
@@ -929,18 +978,11 @@
         </footer>
         <!-- FOOTER ARES END -->
 
-		<!-- Footer Year Handler -->
+        <!-- Footer Year Handler -->
         <script>
             const findYear = new Date();
             const fullYear = findYear.getFullYear();
             document.getElementById('year').innerText = fullYear;
-
-            const dropDownBtn = document.getElementById('dropdown-btn');
-            dropDownBtn.addEventListener('mouseleave', function(){
-                this.style.backgroundColor = "transparent";
-                this.style.color = "#969696";
-                this.style.borderBottomColor = "#969696"
-            })
 
             function addProduct() {
                 let addedProuduct = document.getElementById('addedProduct').innerText;
@@ -952,7 +994,7 @@
             function removeProduct() {
                 let addedProuduct = document.getElementById('addedProduct').innerText;
                 let addedNumber = parseFloat(addedProuduct);
-                if(addedNumber > 1) {
+                if (addedNumber > 1) {
                     let newNumber = addedNumber - 1;
                     document.getElementById('addedProduct').innerText = newNumber;
                 }

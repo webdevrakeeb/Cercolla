@@ -169,21 +169,14 @@
 			}
 		});
 		
-
-
-
 		jQuery('.colors ul li').click(function(){
 			jQuery(this).toggleClass('color-active')
 		})
 
 		$('.productTab .tab-buttons button').click(function () {
 			var tabId = $(this).data('tab');
-	  
-			// Update active tab button
 			$('.productTab .tab-buttons button').removeClass('active');
 			$(this).addClass('active');
-	  
-			// Show corresponding tab content
 			$('.productTab .product-tab-content').removeClass('active');
 			$('#' + tabId).addClass('active');
 		});
@@ -216,8 +209,6 @@
 		jQuery('#related-post').owlCarousel({
 			items: 1,
 			dots: true,
-			// dotsEach: true,
-			// loop: true,
 			smartSpeed: 1000,
 			responsive : {
 				768 : {
@@ -237,16 +228,5 @@
 			}
 		});
 
-		
-
-				
-
-		
-		
-		
-		
-		
-		
-		
 	});
 })(jQuery);
