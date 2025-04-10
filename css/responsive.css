@@ -156,6 +156,10 @@ Large Screen - Leptop
         font-size: 35px;
     }
 
+    .tab-prod-cnt {
+        padding-left: 0;
+    }
+
 
 
 
@@ -339,7 +343,10 @@ Medium Screen - Tablate
         padding-bottom: 20px;
     }
 
-
+    .tab-prod-cnt,
+    .col-lg-6.cnt-two {
+        padding-left: 0;
+    }
 
 
 
@@ -595,6 +602,25 @@ Xtra Small Screen - Small Mobile
     }
     .garanty-banner img {
         width: 85%;
+    }
+
+    .productTab .tab-buttons {
+        flex-direction: column;
+        row-gap: 16px;
+    }
+    .tab-prod-cnt,
+    .col-lg-6.cnt-two {
+        padding-left: 0;
+    }
+    .row.mobile-gap {
+        row-gap: 30px;
+    }
+
+    .related-product-area {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-left: 6px;
+        padding-right: 7px;
     }
 
 

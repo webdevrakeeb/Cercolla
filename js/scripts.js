@@ -162,13 +162,6 @@
 		});
 
 
-
-
-		// jQuery('.filter-btn-card button').on('click', function(){
-		// 	jQuery('.filter-card').toggleClass('col-lg-3');
-		// 	jQuery('.all-products-card').toggleClass('col-lg-9');
-		// })
-
 		jQuery('.filter-btn-card button').on('click', function() {
 			if (jQuery(window).width() >= 1200) {
 				jQuery('.filter-card').toggleClass('col-lg-3');
@@ -182,6 +175,41 @@
 		jQuery('.colors ul li').click(function(){
 			jQuery(this).toggleClass('color-active')
 		})
+
+		$('.productTab .tab-buttons button').click(function () {
+			var tabId = $(this).data('tab');
+	  
+			// Update active tab button
+			$('.productTab .tab-buttons button').removeClass('active');
+			$(this).addClass('active');
+	  
+			// Show corresponding tab content
+			$('.productTab .product-tab-content').removeClass('active');
+			$('#' + tabId).addClass('active');
+		});
+
+
+		// FEATURED PRODUCTS Slider Activation
+		jQuery('#related-product-slider').owlCarousel({
+			margin: 30,
+			nav: true,
+			items: 1,
+			loop: true,
+			smartSpeed: 1000,
+			navText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
+			responsive : {
+				992 : {
+					items: 4
+				},
+				768 : {
+					items: 3
+				},
+				0 : {
+					items: 2,
+					margin:10
+				}
+			}
+		});
 
 		
 

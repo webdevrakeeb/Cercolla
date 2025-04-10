@@ -2214,5 +2214,370 @@ FOUR CARDS AREA CSS HERE
     margin-top: 20px;
 }
 
+/*======================
+PRODUCT TAB AREA CSS HERE
+========================*/
+.productTab {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.product-tab-nav {
+	padding: 25px 0;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.productTab .tab-buttons {
+    max-width: 524px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productTab .tab-buttons button {
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    color: #969696;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    background: transparent !important;
+}
+
+.productTab .tab-buttons button.active {
+    color: #000;
+}
+
+.productTab .tab-buttons button {
+    position: relative;
+}
+
+.productTab .tab-buttons button::after {
+    content: '';
+    display: block;
+    clear: both;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: #522B1F;
+    left: 0;
+    bottom: 0;
+    transition: all 0.8s ease;
+}
+
+.productTab .tab-buttons button.active::after {
+    content: '';
+    display: block;
+    clear: both;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #522B1F;
+    left: 0;
+    bottom: 0;
+}
+
+.productTab .tab-buttons button.active:hover::after,
+.productTab .tab-buttons button:hover::after {
+    width: 100%;
+}
+
+.productTab .product-tab-content {
+    display: none;
+}
+
+.productTab .product-tab-content.active {
+    display: block;
+}
+
+.product-tab-cnt-card {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.product-tab-desc {
+    padding-top: 40px;
+}
+
+.product-tab-desc > p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #a8a8a8;
+    margin-bottom: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tab-prod-cnt p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #a8a8a8;
+    margin-bottom: 16px;
+}
+
+.tab-prod-cnt h2,
+.more-detail-card h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    position: relative;
+    padding-bottom: 10px;
+    margin: 10px 0 20px;
+}
+
+.tab-prod-cnt h2::before,
+.more-detail-card h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 48px;
+    height: 1px;
+    background: #000;
+}
+
+.tab-prod-cnt {
+	padding-left: 15px;
+}
+
+.more-detail-card ul li {
+    font-size: 15px;
+    line-height: 28px;
+    color: #a8a8a8;
+}
+
+.product-tab-desc .row,
+.additional-info-tab .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.additional-info-tab {
+    padding-top: 30px;
+}
+
+.additional-top-row p {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #979797;
+    margin-bottom: 5px;
+}
+
+.additional-top-row h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #111;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.additional-top-row h3::before {
+    content: "";
+    height: 2px;
+    width: 40px;
+    background: #522b1f;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.col-lg-6.cnt-one {
+	padding: 0;
+}
+
+.common-card p {
+    color: #979797;
+    padding: 10px 0;
+    margin-bottom: 16px;
+}
+
+.common-card ul {
+    margin-bottom: 16px;
+}
+
+.common-card ul li,
+.common-card ul li a {
+    font-weight: 500;
+    color: #979797;
+    padding: 4px 0;
+    line-height: 28px;
+}
+
+.common-card ul li a {
+    line-height: 100%;
+    padding: 0;
+}
+
+.common-card h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 8px;
+}
+
+.col-lg-6.cnt-two {
+    padding-left: 25px;
+}
+
+.review-tab {
+    padding: 20px 0;
+}
+.product-tab-area {
+	padding-bottom: 30px;
+}
+
+/*======================
+SOCIAL LINKS AREA CSS HERE
+========================*/
+.social-list-area {
+    padding: 10px 0;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 30px;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.social-list li a {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #e2e2e2;
+    transition: all 0.4s ease;
+}
+
+.social-list li a i {
+    font-size: 15px;
+    color: #111;
+    transition: all 0.4s ease;
+}
+
+.social-list li a:hover {
+    background-color: #4C281D;
+}
+
+.social-list li a:hover i {
+    color: #fff;
+}
+
+/*======================
+RELATED PRODUCT AREA CSS HERE
+========================*/
+.related-product-area {
+    padding-top: 70px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 7px;
+}
+
+.rptitle-card {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #111;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.rptitle-card::after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: #522b1f;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translate(-50%);
+    bottom: 0;
+}
+
+.related-product-slider {
+    padding-top: 48px;
+}
+
+.owl-dots {
+	display: none;
+}
+
+#related-product-slider .owl-nav {
+	text-align: left !important;
+}
+
+.related-product-slider #related-product-slider .owl-prev {
+	left: -16px !important;
+	top: 50%;
+	width: 30px;
+	height: 30px;
+	transform: translateY(-185%);
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    border: 1px solid #ccc;
+}
+
+.related-product-slider #related-product-slider .owl-next {
+	right: -16px !important;
+	top: 50%;
+	width: 30px;
+	height: 30px;
+	transform: translateY(-185%);
+    background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    border: 1px solid #ccc;
+}
+
+.related-product-slider #related-product-slider .owl-prev i, 
+.related-product-slider #related-product-slider .owl-next i {
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
